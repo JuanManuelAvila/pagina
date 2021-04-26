@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Lecciones interactivas",
+"productVersion": "1.0",
+"dataUrl": "LI_MAT3_DIVISION_UNA_CIFRA.data.unityweb",
+"wasmCodeUrl": "LI_MAT3_DIVISION_UNA_CIFRA.wasm.code.unityweb",
+"wasmFrameworkUrl": "LI_MAT3_DIVISION_UNA_CIFRA.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.10f1"
+}

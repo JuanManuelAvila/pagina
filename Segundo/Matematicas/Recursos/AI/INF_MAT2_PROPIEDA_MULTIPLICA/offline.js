@@ -1,0 +1,30 @@
+﻿{
+	"version": 1502728371,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/botnext-sheet0.png",
+		"images/botdesempeño-sheet0.png",
+		"images/barrafinalizar-sheet0.png",
+		"images/botnavegacion-sheet0.png",
+		"images/botportada-sheet0.png",
+		"images/fondos-sheet0.png",
+		"images/fondos-sheet1.png",
+		"images/controlador-sheet0.png",
+		"images/boton_gris-sheet0.png",
+		"images/objboton-sheet0.png",
+		"images/objtextos-sheet0.png",
+		"images/objcerrar-sheet0.png",
+		"media/clik.ogg",
+		"media/correct answer.oggvorbis.ogg",
+		"media/game over fx.oggvorbis.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}

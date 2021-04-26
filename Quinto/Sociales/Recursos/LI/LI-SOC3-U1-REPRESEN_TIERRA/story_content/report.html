@@ -1,0 +1,404 @@
+<HTML>
+<HEAD>
+<!-- saved from url=(0014)about:internet -->
+<TITLE>Results</TITLE>
+
+<SCRIPT>
+var g_arrMonths = new Array()
+
+// Enter the month names below
+try
+{
+	g_arrMonths[0] = __MONTH_JAN__;	
+	g_arrMonths[1] = __MONTH_FEB__;
+	g_arrMonths[2] = __MONTH_MAR__;
+	g_arrMonths[3] = __MONTH_APR__;
+	g_arrMonths[4] = __MONTH_MAY__;
+	g_arrMonths[5] = __MONTH_JUN__;
+	g_arrMonths[6] = __MONTH_JUL__;
+	g_arrMonths[7] = __MONTH_AUG__;
+	g_arrMonths[8] = __MONTH_SEP__;
+	g_arrMonths[9] = __MONTH_OCT__;
+	g_arrMonths[10] = __MONTH_NOV__;
+	g_arrMonths[11] = __MONTH_DEC__;
+
+	// Enter the column headers
+	var g_strDateTime 		= __DATE_TIME__;
+	var g_strStudentScore 	= __STUDENT_SCORE__;
+	var g_strPassingScore 	= __PASSING_SCORE__;
+	var g_strResult1 		= __RESULT__;
+	var g_strQuestion 		= __QUESTION__;
+	var g_strCorrectAns 	= __CORRECT_ANS__;
+	var g_strResult2 		= __RESULT__;
+	var g_strStudentAns 	= __STUDENT_ANS__;
+	var g_strPointsAwarded 	= __POINTS_AWARD__;
+	var g_strNeutral 		= __NEUTRAL__;
+	var g_strCorrect 		= __CORRECT__;
+	var g_strIncorrect 		= __INCORRECT__;
+}
+catch(e)
+{
+	g_arrMonths[0] = "January";	
+	g_arrMonths[1] = "February";
+	g_arrMonths[2] = "March";
+	g_arrMonths[3] = "April";
+	g_arrMonths[4] = "May";
+	g_arrMonths[5] = "June";
+	g_arrMonths[6] = "July";
+	g_arrMonths[7] = "August";
+	g_arrMonths[8] = "September";
+	g_arrMonths[9] = "October";
+	g_arrMonths[10] = "November";
+	g_arrMonths[11] = "December";
+
+	// Enter the column headers
+	var g_strDateTime = "Date / Time";
+	var g_strStudentScore = "Student Score";
+	var g_strPassingScore = "Passing Score";
+	var g_strResult1 = "Result";
+	var g_strQuestion = "Question";
+	var g_strCorrectAns = "Correct Answer";
+	var g_strResult2 = "Result";
+	var g_strStudentAns = "Student Answer";
+	var g_strPointsAwarded = "Points Awarded";
+	var g_strNeutral = "Neutral";
+	var g_strCorrect = "Correct";
+	var g_strIncorrect = "Incorrect";
+}
+
+</SCRIPT>
+
+<STYLE>
+
+TABLE.SUMMARY {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 1px;
+}
+TABLE.QUESTIONS  {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 1px;
+}
+TD {
+	font-size:10pt;
+	font-family:arial;
+	text-align: center;
+	width: 12.5%;
+}
+TH {
+	font-size:12pt;
+	font-family:arial;
+}
+
+.CORRECT {
+	font-size:10pt;
+	font-family:arial;
+	color: #008800;
+}
+
+.INCORRECT {
+	font-size:10pt;
+	font-family:arial;
+	color: #880000;
+}
+
+.NEUTRAL {
+	font-size:10pt;
+	font-family:arial;
+	color: #000088;
+}
+
+.QUESTION {
+	font-size:10pt;
+	font-family:arial;
+	text-align: left;
+	width: 46.25%;	
+}
+
+.NUMBER {
+	font-size:10pt;
+	font-family:arial;
+	text-align: center;
+	width: 3.75%;
+}
+
+.DATE {
+	font-size:10pt;
+	font-family:arial;
+	text-align: center;
+	
+}
+
+.DATETIME {
+	font-size:10pt;
+	font-family:arial;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.SUMMARY {
+	font-size:10pt;
+	font-family:arial;
+	text-align: center;
+}
+
+H1 {
+	font-size:14pt;
+	font-family:arial;
+	text-align: center;
+}
+
+H2 {
+	font-size:14pt;
+	font-family:arial;
+	text-align: center;
+}
+
+H3 {
+	font-size:12pt;
+	font-family:arial;
+	text-align: center;
+}
+
+
+</STYLE>
+
+<SCRIPT>
+var g_oContentResults = window.opener.g_oContentResults;
+var g_listQuizzes = window.opener.g_listQuizzes;
+var g_oPrintOptions = window.opener.g_oPrintOptions;
+
+function WriteQuizResults(strQuizId)
+{
+	var oQuiz = g_listQuizzes[strQuizId];
+	document.write("<h3>" + oQuiz.strQuizName + "</h3>");
+	document.write("<TABLE class='QUESTIONS' BORDER=1>");
+	document.write("<TR>");
+	document.write("<TH>#</TH>");
+	document.write("<TH>" + g_strQuestion + "</TH>");
+	
+	if (!g_oPrintOptions.bSurvey)
+	{
+		document.write("<TH>" + g_strCorrectAns + "</TH>");
+	}
+	
+	document.write("<TH>" + g_strStudentAns + "</TH>");
+	
+	if (!g_oPrintOptions.bSurvey)
+	{
+		document.write("<TH>" + g_strResult2 + "</TH>");
+		document.write("<TH>" + g_strPointsAwarded + "</TH>");
+	}
+	
+	document.write("</TR>");
+
+
+	// Sort our questions by question number
+	var arrSort = new Array();
+	
+	var arrQuestions = oQuiz.arrQuestions;
+
+	if (arrQuestions.length > 0)
+	{
+		if (arrQuestions[0].bFound)
+		{
+			for (var i = 0; i < arrQuestions.length; i++)
+			{
+				arrQuestions[i].bFound = false;
+			}
+		}
+
+		for (var i = arrQuestions.length - 1; i >= 0; i--)
+		{
+			var nIndex = -1;
+			var nMaxValue = -1;
+	
+			for (var j = 0; j < arrQuestions.length; j++)
+			{
+				if (!arrQuestions[j].bFound && Number(arrQuestions[j].nQuestionNumber) > nMaxValue)
+				{
+					nMaxValue = arrQuestions[j].nQuestionNumber;
+					if (nIndex >= 0)
+					{
+						arrQuestions[nIndex].bFound = false;
+					}
+					arrQuestions[j].bFound = true;
+					nIndex = j;				
+				}
+			}
+			arrSort[i] = nIndex;
+		}
+
+		for (var i = 0; i < arrSort.length; i++)
+		{
+			AddItem(arrQuestions[arrSort[i]]);
+		}
+	}
+
+	document.write("</TABLE>");
+}
+
+function AddItem(oQuestion)
+{
+	var strResult = g_strIncorrect;
+	var strClass = "INCORRECT";
+	var strCorrectResponse = "&nbsp;";
+	var strUserResponse = "&nbsp;";
+
+	if (oQuestion.strCorrectResponse)
+	{
+		strCorrectResponse = oQuestion.strCorrectResponse;
+		 
+		strCorrectResponse = strCorrectResponse.replace(/\|#\|/g,", ");
+	}  
+ 
+	if (oQuestion.strUserResponse)
+	{
+		strUserResponse = oQuestion.strUserResponse;
+		strUserResponse = strUserResponse.replace(/\|#\|/g,", ");
+	}
+
+	document.write("<TR>"); 
+	document.write("<TD class='NUMBER'>" + oQuestion.nQuestionNumber + "</TD>");
+	document.write("<TD class='QUESTION'>" + oQuestion.strDescription + "</TD>");
+	
+	if (!g_oPrintOptions.bSurvey)
+	{
+		document.write("<TD>" + strCorrectResponse + "</TD>");
+	}
+	document.write("<TD>" + strUserResponse + "</TD>");
+	
+	if (!g_oPrintOptions.bSurvey)
+	{
+		if (oQuestion.strStatus == "correct")
+		{
+			strResult = g_strCorrect;
+			strClass = "CORRECT"
+		}
+		else if (oQuestion.strStatus == "neutral")
+		{
+			strResult = g_strNeutral
+			strClass = "NEUTRAL"
+		}
+
+		document.write("<TD class='" + strClass + "'>" + strResult + "</TD>");
+		document.write("<TD>" + oQuestion.nPoints + "</TD>");
+	}
+	document.write("</TR>");
+}
+
+function FormatDate(dtmDate)
+{
+	var strResult = "";
+	var nHours = dtmDate.getHours();
+	var strAM = "am";
+	var nMinutes = dtmDate.getMinutes();
+	var strMinutes = "" + nMinutes;
+
+	if (nMinutes < 10)
+	{
+		strMinutes = "0" + nMinutes;
+	}
+
+	if (nHours == 12)
+	{
+		strAM = "pm";
+	}
+
+	if (nHours > 12)
+	{
+		nHours -= 12;
+		strAM = "pm";
+	}
+	
+
+	strResult += "<P class='DATETIME'>"
+	strResult += g_arrMonths[dtmDate.getMonth()] + " ";
+	strResult += dtmDate.getDate() + ", ";
+	strResult += dtmDate.getFullYear() + "  ";
+	strResult += "</P><P class='DATETIME'>"
+	strResult += nHours + ":";
+	strResult += strMinutes + " ";
+	strResult += strAM;
+	strResult += "</P>"
+	return strResult;
+}
+
+</SCRIPT>
+
+</HEAD>
+<BODY>
+
+<SCRIPT>
+var strTitle = g_listQuizzes[g_oPrintOptions.strMainQuizId].strQuizName;
+document.write("<P><H1>" + strTitle + "</H1></P>");
+if (g_oPrintOptions.strName)
+{
+	if (g_oPrintOptions.strName.length > 0)
+	{
+		document.write("<P><H2>" + g_oPrintOptions.strName + "</H2></P>");
+	}
+}
+
+	document.write("<P style='margin-bottom: 0;'>&nbsp;</P>");
+	document.write("<TABLE class='SUMMARY' border=1 align='center'>");
+	document.write("<TR>");
+	document.write("<TH>" + g_strDateTime + "</TH>");
+
+	if (g_oPrintOptions.bShowUserScore && !g_oPrintOptions.bSurvey)
+	{	
+		document.write("<TH>" + g_strStudentScore + "</TH>");
+	}
+	if (g_oPrintOptions.bShowPassingScore && !g_oPrintOptions.bSurvey)
+	{
+		document.write("<TH>" + g_strPassingScore + "</TH>");
+	}
+	if (g_oPrintOptions.bShowShowPassFail && !g_oPrintOptions.bSurvey)
+	{
+		document.write("<TH>" + g_strResult1 + "</TH>");
+	}
+
+	
+	document.write("</TR><TR>");
+
+	document.write("<TD class='DATE'>" + FormatDate(g_oContentResults.dtmFinished) + "</TD>");
+
+	if (g_oPrintOptions.bShowUserScore && !g_oPrintOptions.bSurvey)
+	{
+		document.write("<TD class='SUMMARY'>" + g_listQuizzes[g_oPrintOptions.strMainQuizId].nPtScore + "</TD>");
+	}
+	if (g_oPrintOptions.bShowPassingScore && !g_oPrintOptions.bSurvey)
+	{
+		document.write("<TD class='SUMMARY'>" + g_listQuizzes[g_oPrintOptions.strMainQuizId].nPassingScore + "</TD>");
+	}
+	if (g_oPrintOptions.bShowShowPassFail && !g_oPrintOptions.bSurvey)
+	{
+		var nPtScore = Number(g_listQuizzes[g_oPrintOptions.strMainQuizId].nPtScore);
+		var nPassScore = Number(g_listQuizzes[g_oPrintOptions.strMainQuizId].nPassingScore);
+		
+		var strCapResult = (nPtScore >= nPassScore) ? "Pass" : "Fail";
+		document.write("<TD class='SUMMARY'>" + strCapResult + "</TD>");
+	}
+	document.write("</TR></TABLE>");
+</SCRIPT>
+
+<P style='margin-top: 0;'>&nbsp;</P>
+
+<SCRIPT>
+	if (g_oPrintOptions.bShowQuizReview)
+	{
+		var arrQuizzes  = g_oPrintOptions.arrQuizzes;
+		// for (strQuizId in g_listQuizzes)
+		for (var i = 0; i < arrQuizzes.length; i++)
+		{
+			WriteQuizResults(arrQuizzes[i]);
+		}
+	}
+
+</SCRIPT>
+
+</BODY>
+</HTML>
