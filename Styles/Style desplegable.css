@@ -60,6 +60,8 @@
 {    
     margin: 10px 0px;
     font-size: 20px;
+    font-weight: bold;
+
 
     display: flex;
     align-self: flex-start;
@@ -77,6 +79,8 @@
     
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+    
        
     padding: 10px 10px 5px;
     margin: 0 5px;
@@ -85,10 +89,11 @@
     height: 190px;
 }
 h4{
-    background-color: red;
-    display: flex;    
-    flex-direction: column;
-    align-self: center;
+    
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
 .Materias
 {
@@ -97,8 +102,6 @@ h4{
     border-radius: 10px;
     margin-bottom: 5px;
 }
-
-
 .active + .item-content
 {
     max-height: 2000px;
