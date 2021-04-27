@@ -88,7 +88,7 @@
 .Materias
 {
     width: 200px;
-    height: 120px;
+    height: 130px;
     border-radius: 10px;
     margin-bottom: 5px;
 }
@@ -111,6 +111,7 @@
 .btn-item.active:after{
     content: "\02212";
 }
+
 @media screen and (max-width:800px)
 {
     .item-content
