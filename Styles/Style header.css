@@ -1,15 +1,12 @@
 .header
-{    
+{     
     display: flex;    
-    align-items:center;
-    flex-wrap: wrap;    
+    align-items:center;    
 }
-.logoEducar
-{ 
- margin-left: 10px;
- margin-top: 10px;
-}
-.logoBoyaca
-{    
-    margin-left: 10px;
+.logoEducar img
+{  
+    width: 900px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

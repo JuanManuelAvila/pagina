@@ -1,61 +1,79 @@
 *
 {    
     margin : 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    text-decoration: none;
-}
-.Index
-{
-    flex-flow: column wrap;
-    flex-direction: column;
+    padding: 0px;    
+    font-family: Arial, Helvetica, sans-serif;    
+    text-decoration: none;    
 }
 .body
-{      
-    padding: 30px 0;
-    height: auto;
-    padding-bottom: 200px;
-    background-color: beige;
+{       
+    background-image: image("Portadas/fondo_Mesa_de_trabajo_1.png");
+    padding: 200px 0;
+    height: auto;    
+    background-color: rgb(5, 158, 118);
 
+    border-top:5px solid #E43440;
+    border-bottom:5px solid #E43440;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+}
+.footer
+{
+    height: 100px;    
 }
 .Desplegables
 {   
-    background-color: aliceblue;    
-    border-radius: 10px;
-    width: 710px;
-    
-}
+    box-shadow: 
+    inset  0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0,0,0,0.1);
 
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;    
+}
 .btn-item
 {    
-    background-color: rgb(2, 71, 2);     
+    box-shadow: 
+    inset  0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0,0,0,0.1);
+        
+    background-color: rgb(100, 175, 89);     
     border-radius: 10px;
-    display: block;   
+    margin-bottom: 5px;
     color: white;
-    padding: 8px;    
+    
+    font-size: 25px;
     font-weight: bold;
-    border-bottom: 2px solid white;       
+    padding: 10px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
 }
 .item-content
 {
     display: flex;
     flex-wrap: wrap;              
-    justify-content:flex-start;    
-    flex-direction: column;
+    justify-content:center;
+    flex-direction: column;    
 
+    
     background-color: aliceblue;
     overflow: hidden;
     max-height: 0px;
     opacity: 0;
 }
 .division
-{   display: flex;     
+{   
+    display: flex;     
     flex-direction: row;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
+    justify-content: start;
 }
 .titulo
 {    
@@ -67,13 +85,13 @@
     display: flex;
     align-self: flex-start;
     align-items: center;
-    color:  rgb(2, 71, 2);
+    color: #009E76;
 }
 .item-content a
 {
     box-shadow: 
-    inset  0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    inset  0 0 0 1px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0,0,0,0.1);
 
     background-color: white;   
     border-radius: 10px;
@@ -90,13 +108,16 @@
     height: 190px;
 }
 h4
-{       
+{  
+    color:#64AF59;
     text-align: center;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;    
 }
+h4:hover{color: #009E76;}
+h4:active{color: #009E76;}
 .Materias
 {
     width: 200px;
@@ -110,21 +131,23 @@ h4
     padding: 10px;
     opacity: 1;
 }
-.btn-item.active
+.btn-item.active{background-color:#E43440;}
+
+.btn-item:after
 {
-    background-color: orange;
-}
-.btn-item:after{
     content: "\002b";
     float: right;
 }
-.btn-item.active:after{
+.btn-item.active:after
+{
     content: "\02212";
 }
 
+
+
 @media screen and (max-width:800px)
 {
-    .item-content
+    .division
     {    
         display: flex;
         flex-wrap: wrap;
