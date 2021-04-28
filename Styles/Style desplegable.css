@@ -3,7 +3,8 @@
     margin : 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;    
+    
+    text-decoration: none;
 }
 .Index
 {
@@ -60,6 +61,8 @@
 {    
     margin: 10px 0px;
     font-size: 20px;
+    font-weight: bold;
+
 
     display: flex;
     align-self: flex-start;
@@ -74,16 +77,25 @@
 
     background-color: white;   
     border-radius: 10px;
-
+    
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     
-    
+       
     padding: 10px 10px 5px;
     margin: 0 5px;
     margin-bottom: 10px;
-    width: 200px;    
+    width: 200px;
+    height: 190px;
+}
+h4
+{       
+    text-align: center;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
 .Materias
 {
@@ -92,11 +104,9 @@
     border-radius: 10px;
     margin-bottom: 5px;
 }
-
-
 .active + .item-content
 {
-    max-height: 2000px;
+    max-height: 5000px;
     padding: 10px;
     opacity: 1;
 }
