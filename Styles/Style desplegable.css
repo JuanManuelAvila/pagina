@@ -8,17 +8,21 @@
 }
 .body
 {      
-    background-color: rgb(5, 158, 118);
-    border-top:5px solid #E43440;
+    background-color: rgb(5, 158, 118);    
     border-bottom:5px solid #E43440;
     display: flex;
+    
     flex-direction: column;
-    align-items: center;
-    justify-content: center;    
+    
 }
-.footer
-{   
-    height: 100px;    
+footer
+{       
+    color: white;
+    background-color: #048162;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Desplegables
 {   
@@ -27,16 +31,19 @@
     0.3em 0.3em 1em rgba(0,0,0,0.1);
     
     background-color: white;
-    margin: 200px 230px;
+    margin: 100px 230px;
     border-radius: 10px;
     padding: 10px;
     
     margin-left: 250;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;   
 }
 .btn-item
 {    
+    cursor: pointer;
     box-shadow: 
     inset  0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0,0,0,0.1);
@@ -79,7 +86,6 @@
     margin: 10px 0px;
     font-size: 20px;
     font-weight: bold;
-
 
     display: flex;
     align-self: flex-start;
