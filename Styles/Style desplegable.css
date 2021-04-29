@@ -1,17 +1,14 @@
+
 *
 {    
     margin : 0px;
-    padding: 0px;    
-    font-family: Arial, Helvetica, sans-serif;    
-    text-decoration: none;    
+    padding: 0px;        
+    text-decoration: none;
+    font-family: Filson Pro;
 }
 .body
-{       
-    background-image: image("Portadas/fondo_Mesa_de_trabajo_1.png");
-    padding: 200px 0;
-    height: auto;    
+{      
     background-color: rgb(5, 158, 118);
-
     border-top:5px solid #E43440;
     border-bottom:5px solid #E43440;
     display: flex;
@@ -20,7 +17,7 @@
     justify-content: center;    
 }
 .footer
-{
+{   
     height: 100px;    
 }
 .Desplegables
@@ -28,11 +25,13 @@
     box-shadow: 
     inset  0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0,0,0,0.1);
-
+    
     background-color: white;
+    margin: 200px 230px;
     border-radius: 10px;
     padding: 10px;
     
+    margin-left: 250;
     display: flex;
     flex-direction: column;    
 }
@@ -108,7 +107,7 @@
     height: 190px;
 }
 h4
-{  
+{      
     color:#64AF59;
     text-align: center;
     height: 60px;
@@ -142,15 +141,12 @@ h4:active{color: #009E76;}
 {
     content: "\02212";
 }
-
-
-
-@media screen and (max-width:800px)
+@media screen and (max-width:1205px)
 {
     .division
     {    
         display: flex;
         flex-wrap: wrap;
         justify-content: center;   
-    }
+    }    
 }
