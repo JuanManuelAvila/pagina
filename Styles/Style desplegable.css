@@ -15,12 +15,21 @@
     flex-direction: column;
     
 }
-footer
+.footer_normal
 {       
     color: white;
     background-color: #048162;
     height: 200px;    
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_responsive
+{       
+    color: white;
+    background-color: #048162;
+    height: 200px;    
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -155,4 +164,16 @@ h4:active{color: #009E76;}
         flex-wrap: wrap;
         justify-content: center;   
     }    
+}
+@media screen and (max-width:834px)
+{
+    .footer_normal
+    {          
+        display: none;
+    }
+    .footer_responsive
+    {           
+        display: flex;
+        text-align: center;
+    }
 }
