@@ -8,19 +8,13 @@
     justify-items: center;
     padding-top: 60px;    
 }    
-<<<<<<< HEAD
-.logoEducar
-{
-    width: 100%;
-=======
-
 .logoEducarNormal{
   display: none;
 }
 
 .logo{
     width: auto;
->>>>>>> 7cc1a6bd060da9cc2a06dbdbb361374678b142f6
+
     display: flex;
     justify-content: center;
 }

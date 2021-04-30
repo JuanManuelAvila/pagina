@@ -164,23 +164,23 @@ body {margin:0;font-family:Arial}
   }
 
   .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
+    float: right;
+    display: block;   
+    text-align: center;
   }
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
-    text-align: left;
+    text-align: center;
   }  
   .topnav.responsive .sub-dropdown {float: none;}
   .topnav.responsive .sub-dropdown-content {position: relative;}
   .topnav.responsive .sub-dropdown .sub-dropbtn {
     display: block;
     width: 100%;
-    text-align: left;
+    text-align: center;
   }  
  
 }
