@@ -8,9 +8,9 @@
     justify-items: center;
     padding-top: 60px;    
 }    
-
-.logoEducar{
-    width: auto;
+.logoEducar
+{
+    width: 100%;
     display: flex;
     justify-content: center;
 }

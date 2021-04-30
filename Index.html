@@ -12,8 +12,8 @@
     <title>Pagina Educar</title>
 </head>
 
-<body class="Index">    
-    <header class="header">                 
+<body>    
+    <header class="header">
         <div class="logoEducar">
             <a href="Index.html">
                 <img src="/Portadas/logo.png">
@@ -22,12 +22,10 @@
         <button onclick="topFunction()" id="myBtn" title="Go to top">
             <img src="Pagina_Nueva_IMG-14.png" width="20px" height="20px">
         </button>
-
         <div class="topnav" id="myTopnav">
-            <a href="#home" class="activo">Inicio</a>            
+            <a href="Index.html" class="activo">Inicio</a>            
             <div class="dropdown">
-                <button class="dropbtn">Dropdown 
-                  <i class="fa fa-caret-down"></i>
+                <button class="dropbtn">Dropdown                   
                 </button>
                 <div class="dropdown-content">
                     <div class= "sub-dropdown">
@@ -35,8 +33,12 @@
                             Preescolar
                         </button>
                         <div class="sub-dropdown-content">
-                            <a href="#">Link 22</a>
-                            <a href="#">Link 23</a>
+                            <a href="Preescolar/DimensiónCognitiva/index.html">Dimensión Cognitiva</a>
+                            <a href="Preescolar/DimensiónComunicativa/index.html">Dimensión Comunicativa</a>
+                            <a href="Preescolar/DimensiónCorporal/index.html">Dimensión Corporal</a>
+                            <a href="Preescolar/DimensiónEstética/index.html">Dimensión Estética</a>
+                            <a href="Preescolar/DimensiónGrafomotricidad/index.html">Dimensión Grafomotricidad</a>
+                            <a href="Preescolar/Dimensión Socioafectiva/index.html">Dimensión Socioafectiva</a>
                         </div>
                     </div>
                     <div class= "sub-dropdown">                        
@@ -44,8 +46,10 @@
                             Primero
                         </button>
                         <div class="sub-dropdown-content">
-                            <a href="#">Link 22</a>
-                            <a href="#">Link 23</a>
+                            <a href="Primero/CienciasNaturales/index.html">Ciencias Naturales</a>
+                            <a href="Primero/Lenguaje/index.html">Lenguaje</a>
+                            <a href="Primero/Matematicas/index.html">Matematicas</a>
+                            <a href="Primero/Sociales/index.html">Sociales</a>
                         </div>
                     </div>
                     <div class= "sub-dropdown">
@@ -53,8 +57,10 @@
                            Segundo
                         </button>
                         <div class="sub-dropdown-content">
-                            <a href="#">Link 31</a>
-                            <a href="#">Link 32</a>
+                            <a href="Segundo/CienciasNaturales/index.html">Ciencias Naturales</a>
+                            <a href="Segundo/Lenguaje/index.html">Lenguaje</a>
+                            <a href="Segundo/Matematicas/index.html">Matematicas</a>
+                            <a href="Segundo/Sociales/index.html">Sociales</a>
                         </div>
                     </div>
                     <div class= "sub-dropdown">
@@ -62,8 +68,10 @@
                             Tercero
                         </button>
                         <div class="sub-dropdown-content">
-                            <a href="#">Link 22</a>
-                            <a href="#">Link 23</a>
+                            <a href="Tercero/CienciasNaturales/index.html">Ciencias Naturales</a>
+                            <a href="Tercero/Lenguaje/index.html">Lenguaje</a>
+                            <a href="Tercero/Matematicas/index.html">Matematicas</a>
+                            <a href="Tercero/Sociales/index.html">Sociales</a>
                         </div>
                     </div>
                     <div class= "sub-dropdown">
@@ -71,8 +79,10 @@
                             Cuarto
                         </button>
                         <div class="sub-dropdown-content">
-                            <a href="#">Link 22</a>
-                            <a href="#">Link 23</a>
+                            <a href="Cuarto/CienciasNaturales/index.html">Ciencias Naturales</a>
+                            <a href="Cuarto/Lenguaje/index.html">Lenguaje</a>
+                            <a href="Cuarto/Matematicas/index.html">Matematicas</a>
+                            <a href="Cuarto/Sociales/index.html">Sociales</a>
                         </div>
                     </div>
                     <div class= "sub-dropdown">
@@ -80,8 +90,10 @@
                             Quinto
                         </button>
                         <div class="sub-dropdown-content">
-                            <a href="#">Link 22</a>
-                            <a href="#">Link 23</a>
+                            <a href="Quinto/CienciasNaturales/index.html">Ciencias Naturales</a>
+                            <a href="Quinto/Lenguaje/index.html">Lenguaje</a>
+                            <a href="Quinto/Matematicas/index.html">Matematicas</a>
+                            <a href="Quinto/Sociales/index.html">Sociales</a>
                         </div>
                     </div>
                 </div>
@@ -92,9 +104,8 @@
     </header>
             
     <div class ="body">
-        
-        
-        <div class="Desplegables">            
+
+        <div class="Desplegables">
             <div class="item">
                 <p class="btn-item active">Preescolar</p>
                 <div class="item-content">
@@ -256,6 +267,7 @@
             </div>  
 
         </div>
+        
     </div>
     
     <footer>
@@ -288,11 +300,15 @@
     
     <script>
         // funcionamiento del nav
-        function myFunction() {
+        function myFunction() 
+        {
           var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
+          if (x.className === "topnav") 
+          {
+            x.className += "responsive";
+          } 
+          else 
+          {
             x.className = "topnav";
           }
         }

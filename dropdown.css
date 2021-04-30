@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav
+{
+    height: 50px;
+    background: red;
+    color: white;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.menu ul ul{
+    display: block;
+    padding: 50px;
+}
+.menu a{
+    display: none;    
+    padding: 100px;
+    color: white;
+}
+.menu a:hover{
+    display: block;
+}

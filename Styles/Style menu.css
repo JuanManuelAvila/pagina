@@ -154,7 +154,8 @@ body {margin:0;font-family:Arial}
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) 
+{
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
