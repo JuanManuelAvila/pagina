@@ -8,13 +8,13 @@
     justify-items: center;
     padding-top: 60px;    
 }    
-
 .logoEducarNormal{
   display: none;
 }
 
 .logo{
     width: auto;
+
     display: flex;
     justify-content: center;
 }

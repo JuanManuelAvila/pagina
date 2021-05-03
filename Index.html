@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="Styles/Style header.css">
     <link rel="stylesheet" href="font/stylesheet.css">
     <link rel="stylesheet" href="Styles/Style menu.css">
-
     <title>Pagina Educar</title>
-
 </head>
 
 <body class="Index">    
+    <!---->
     <header class="header">  
         <div class="container_logo">      
             <div class="logo">
@@ -43,91 +42,111 @@
                     </div>
                 </div>
             </div>        
-        </div>               
-        <div class="topnav" id="myTopnav">
-            <a href="#home" class="Btn_Inicio">Inicio</a>            
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown 
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <div class= "sub-dropdown">
-                        <button class="sub-dropbtn">
-                            Preescolar
-                        </button>
-                        <div class="sub-dropdown-content">
-                            <a href="#">Link 22</a>
-                            <a href="#">Link 23</a>
-                        </div>
-                    </div>
-                    <div class= "sub-dropdown">                        
-                        <button class="sub-dropbtn"> 
-                            Primero
-                        </button>
-                        <div class="sub-dropdown-content">
-                            <a href="#">Link 22</a>
-                            <a href="#">Link 23</a>
-                        </div>
-                    </div>
-                    <div class= "sub-dropdown">
-                        <button class="sub-dropbtn">
-                           Segundo
-                        </button>
-                        <div class="sub-dropdown-content">
-                            <a href="#">Link 31</a>
-                            <a href="#">Link 32</a>
-                        </div>
-                    </div>
-                    <div class= "sub-dropdown">
-                        <button class="sub-dropbtn">
-                            Tercero
-                        </button>
-                        <div class="sub-dropdown-content">
-                            <a href="#">Link 22</a>
-                            <a href="#">Link 23</a>
-                        </div>
-                    </div>
-                    <div class= "sub-dropdown">
-                        <button class="sub-dropbtn">
-                            Cuarto
-                        </button>
-                        <div class="sub-dropdown-content">
-                            <a href="#">Link 22</a>
-                            <a href="#">Link 23</a>
-                        </div>
-                    </div>
-                    <div class= "sub-dropdown">
-                        <button class="sub-dropbtn">
-                            Quinto
-                        </button>
-                        <div class="sub-dropdown-content">
-                            <a href="#">Link 22</a>
-                            <a href="#">Link 23</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class= "About">
-                <a href="#about" class="activo">About</a>
-            </div>
+        </div>         
+        <nav>
+       
 
-            <div class="container-menu-vertical">
-                <input type="checkbox" id="menu">
-                <label for="menu"> ☰ </label>
-                <ul>
-                  <li>Link 1</li>
-                  <li>Link 2</li>
-                  <li>Link 3</li>
-                  <li>Link 4</li>
+            <label for="drop" class="toggle">Menus</label>
+            <input type="checkbox" id="drop" />
+                <ul class="menu">
+                    <li class="btn_level1"><a href="#">Inicio</a></li>
+               
+                    <li class="btn_level1 ">
+                        <!-- First Tier Drop Down -->
+                        <label for="drop-2" class="toggle btn_cursos">Cursos</label>
+                        <a href="#">Cursos</a>
+                        <input type="checkbox" id="drop-2"/>
+                        <ul>
+                            <li>
+                                <!-- Second Tier Drop Down -->        
+                                <label for="drop-3" class="toggle">Preescolar</label>
+                                <a href="#">Preescolar</a>         
+                                <input type="checkbox" id="drop-3"/>
+            
+                                <ul>
+                                    <li class="btn_level2"><a href="./Preescolar/DimensiónCognitiva/index.html">Dimensión Cognitiva</a></li>
+                                    <li class="btn_level2"><a href="./Preescolar/DimensiónComunicativa/index.html">Dimensión Comunicativa</a></li>
+                                    <li class="btn_level2"><a href="./Preescolar/DimensiónCorporal/index.html">Dimensión Corporal</a></li>
+                                    <li class="btn_level2"><a href="./Preescolar/DimensiónEstética/index.html">Dimensión Estética</a></li>
+                                    <li class="btn_level2"><a href="./Preescolar/DimensiónGrafomotricidad/index.html">Dimensión Grafomotricidad</a></li>
+                                    <li class="btn_level2"><a href="./Preescolar/Dimensión Socioafectiva/index.html">Dimensión Socioafectiva</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <!-- Second Tier Drop Down -->        
+                                <label for="drop-4" class="toggle">Primero</label>
+                                <a href="#">Primero</a>         
+                                <input type="checkbox" id="drop-4"/>
+            
+                                <ul>
+                                    <li><a href="./Primero/CienciasNaturales/index.html">Ciencias Naturales</a></li>
+                                    <li><a href="./Primero/Lenguaje/index.html">Lenguaje</a></li>
+                                    <li><a href="./Primero/Matematicas/index.html">Matemáticas</a></li>
+                                    <li><a href="./Primero/Sociales/index.html">Sociales</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <!-- Second Tier Drop Down -->        
+                                <label for="drop-5" class="toggle">Segundo</label>
+                                <a href="#">Segundo</a>         
+                                <input type="checkbox" id="drop-5"/>
+            
+                                <ul>
+                                    <li><a href="./Segundo/CienciasNaturales/index.html">Ciencias Naturales</a></li>
+                                    <li><a href="./Segundo/Lenguaje/index.html">Lenguaje</a></li>
+                                    <li><a href="./Segundo/Matematicas/index.html">Matemáticas</a></li>
+                                    <li><a href="./Segundo/Sociales/index.html">Sociales</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <!-- Second Tier Drop Down -->        
+                                <label for="drop-6" class="toggle">Tercero</label>
+                                <a href="#">Tercero</a>         
+                                <input type="checkbox" id="drop-6"/>
+            
+                                <ul>
+                                    <li><a href="./Tercero/CienciasNaturales/index.html">Ciencias Naturales</a></li>
+                                    <li><a href="./Tercero/Lenguaje/index.html">Lenguaje</a></li>
+                                    <li><a href="./Tercero/Matematicas/index.html">Matemáticas</a></li>
+                                    <li><a href="./Tercero/Sociales/index.html">Sociales</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <!-- Second Tier Drop Down -->        
+                                <label for="drop-7" class="toggle">Cuarto</label>
+                                <a href="#">Cuarto</a>         
+                                <input type="checkbox" id="drop-7"/>
+            
+                                <ul>
+                                    <li><a href="./Cuarto/CienciasNaturales/index.html">Ciencias Naturales</a></li>
+                                    <li><a href="./Cuarto/Lenguaje/index.html">Lenguaje</a></li>
+                                    <li><a href="./Cuarto/Matematicas/index.html">Matemáticas</a></li>
+                                    <li><a href="./Cuarto/Sociales/index.html">Sociales</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <!-- Second Tier Drop Down -->        
+                                <label for="drop-8" class="toggle">Quinto</label>
+                                <a href="#">Quinto</a>         
+                                <input type="checkbox" id="drop-8"/>
+            
+                                <ul>
+                                    <li><a href="./Quinto/CienciasNaturales/index.html">Ciencias Naturales</a></li>
+                                    <li><a href="./Quinto/Lenguaje/index.html">Lenguaje</a></li>
+                                    <li><a href="./Quinto/Matematicas/index.html">Matemáticas</a></li>
+                                    <li><a href="./Quinto/Sociales/index.html">Sociales</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btn_level1"><a href="#">Contacto</a></li>
                 </ul>
-            </div>
-        </div>
+            </nav>
     </header>
             
     <div class ="body">
-        
-        
-        <div class="Desplegables">            
+
+        <div class="Desplegables">
             <div class="item">
                 <p class="btn-item active">Preescolar</p>
                 <div class="item-content">
@@ -175,7 +194,7 @@
                         </a>                    
                         <a href="Primero/Matematicas/index.html" target="_blank">
                             <img class="Materias" src="Portadas/Pagina Nueva_1 MATEMATICAS.jpg">
-                            <h4>Matematicas</h4>
+                            <h4>Matemáticas</h4>
                         </a>                   
                     
                         <a href="Primero/Sociales/index.html" target="_blank">
@@ -200,7 +219,7 @@
                         </a>                    
                         <a href="segundo/Matematicas/index.html" target="_blank">
                             <img class="Materias" src="Portadas/Pagina Nueva_2 MATEMATICAS.jpg">
-                            <h4>Matematicas</h4>
+                            <h4>Matemáticas</h4>
                         </a>                    
                         <a href="segundo/Sociales/index.html" target="_blank">
                             <img class="Materias" src="Portadas/Pagina Nueva_2 SOCIALES.jpg">
@@ -225,7 +244,7 @@
                         </a>
                         <a href="Tercero/Matematicas/index.html" target="_blank">
                             <img class="Materias" src="Portadas/Pagina Nueva_3 MATEMATICAS.jpg">
-                            <h4>Matematicas</h4>
+                            <h4>Matemáticas</h4>
                         </a>
                         <a href="Tercero/Sociales/index.html" target="_blank">
                             <img class="Materias" src="Portadas/Pagina Nueva_3 SOCIALES.jpg">
@@ -251,7 +270,7 @@
                         </a>
                         <a href="Cuarto/Matematicas/index.html" target="_blank">
                             <img class="Materias" src="Portadas/Pagina Nueva_4 MATEMATICAS.jpg">
-                            <h4>Matematicas</h4>
+                            <h4>Matemáticas</h4>
                         </a>
                         <a href="Cuarto/Sociales/index.html" target="_blank">
                             <img class="Materias" src="Portadas/Pagina Nueva_4 SOCIALES.jpg">
@@ -277,7 +296,7 @@
                         </a>
                         <a href="Quinto/Matematicas/index.html" target="_blank">
                             <img class="Materias" src="Portadas/Pagina Nueva_5 MATEMATICAS.jpg">
-                            <h4>Matematicas</h4>
+                            <h4>Matemáticas</h4>
                         </a>
                         <a href="Quinto/Sociales/index.html" target="_blank">
                             <img class="Materias" src="Portadas/Pagina Nueva_5 SOCIALES.jpg">
@@ -289,6 +308,7 @@
             </div>  
 
         </div>
+        
     </div>
     
     <footer>
@@ -328,27 +348,18 @@
     
     <script>
         // funcionamiento del nav
-        /*function myFunction() {
-          var x = document.getElementById("menu");
-          
-          if (x.style.display === "") {
-            //x.style.display = visible;
-            x.style.display = "";
-            console.log(x.style.display);
-          } else {
-            console.log(x.style.display);
-            x.style.display = "block";
+        function myFunction() 
+        {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") 
+          {
+            x.className += "responsive";
+          } 
+          else 
+          {
+            x.className = "topnav";
           }
-            
-        }*/
-
-            const burger = document.querySelector('.body-menuvertical');
-            const nav = document.querySelector('nav');
-
-            burger.addEventListener('click',(e) => {
-            burger.dataset.state === 'closed' ? burger.dataset.state = "open" : burger.dataset.state = "closed"
-            //nav.dataset.state === "closed" ? nav.dataset.state = "open" : nav.dataset.state = "closed"
-            })
+        }
     </script>
     
 </body>
