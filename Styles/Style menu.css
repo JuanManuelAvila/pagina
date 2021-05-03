@@ -1,6 +1,9 @@
 body {margin:0;font-family:Arial}
+<<<<<<< HEAD
 
 /* Giving a background-color to the nav container. */
+=======
+>>>>>>> f3d1d8f93835149e44f0e4afc923eee7d312541c
 
 .toggle,
 [id^=drop] {
@@ -9,7 +12,7 @@ body {margin:0;font-family:Arial}
 
 nav { 
 	margin:0;
-	padding: 0;
+	padding: 20px;
 	background-color: transparent;
 }
 
@@ -42,12 +45,15 @@ nav a {
 	font-size:17px;
 	text-decoration:none;
 }
-nav ul li ul li:hover { background: #d44747; color: white;}
+nav ul li ul li:hover { background: #e43440; color: white;}
 
 /* Background color change on Hover */
 nav a:hover { 
-	background-color: #921a1a; 
+	background-color: #e43440; 
   color: white;
+  border-radius: 10px;
+  transition: border-radius 0.6s linear;
+  /*transition: background-color 0.1s linear 0.1s;*/
 }
 
 /* Hide Dropdowns by Default
@@ -83,6 +89,11 @@ nav ul ul ul li {
 	left:170px; 
 }
 
+.btn_level1{
+  background: transparent;
+  width: 170px;
+  text-align: center;
+}
 
 
 
@@ -90,14 +101,10 @@ nav ul ul ul li {
 --------------------------------------------- */
 
 @media all and (max-width : 768px) {
-
-	#logo {
-		display: block;
-		padding: 0;
-		width: 100%;
-		text-align: center;
-		float: none;
-	}
+  .btn_level1:hover{
+    background: #e43440;
+    color: white;
+  }
 
 	nav {
 		margin: 0;
@@ -108,21 +115,23 @@ nav ul ul ul li {
 	.toggle + a,
 	.menu {
 		display: none;
+
 	}
 
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #254441;
+		background-color: #e43440;
 		padding:14px 20px;	
-		color:#FFF;
+		color:white;
 		font-size:17px;
 		text-decoration:none;
 		border:none;
 	}
 
 	.toggle:hover {
-		background-color: #000000;
+		background-color: #e43440;
+    color: white;
 	}
 
 	/* Display Dropdown when clicked on Parent Lable */
@@ -132,9 +141,10 @@ nav ul ul ul li {
 
 	/* Change menu item's width to 100% */
 	nav ul li {
-		display: block;
+		display: contents;
 		width: 100%;
-		}
+    background: transparent;
+  }
 
 	nav ul ul .toggle,
 	nav ul ul a {
@@ -147,23 +157,37 @@ nav ul ul ul li {
 
 	nav a:hover,
  	nav ul ul ul a {
-		background-color: #000000;
+		background-color: d42935;
 	}
   
+  .btn_level2:hover {
+
+    background-color: #d42935;
+  }
+
 	nav ul li ul li .toggle,
 	nav ul ul a,
   nav ul ul ul a{
 		padding:14px 20px;	
-		color:#FFF;
+		color:black;
 		font-size:17px; 
 	}
   
   
 	nav ul li ul li .toggle,
 	nav ul ul a {
-		background-color: #212121; 
+		background-color: transparent; 
 	}
 
+  .btn_cursos{
+    background: transparent;
+    color: black;
+  }
+
+
+  .btn_cursos:hover{
+      color:white;
+  }
 	/* Hide Dropdowns by Default */
 	nav ul ul {
 		float: none;
@@ -200,4 +224,3 @@ nav ul ul ul li {
 	}
 
 }
-
