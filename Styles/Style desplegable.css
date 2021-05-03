@@ -10,8 +10,7 @@
 {      
     background-color: rgb(5, 158, 118);    
     border-bottom:5px solid #E43440;
-    display: flex;
-    
+    display: flex;    
     flex-direction: column;
     
 }
