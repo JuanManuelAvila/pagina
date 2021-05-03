@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../../Styles/Style header.css">
     <link rel="stylesheet" href="../../Styles/Style menu.css">
     <link rel="stylesheet" href="../../font/stylesheet.css">
-    <title>Matematicas de cuarto</title>
+    <title>Matemáticas de cuarto</title>
 </head>
 <body>
     <header class="header">  
@@ -17,24 +17,24 @@
             <div class="logo">
                 <div class="logo_medio">
                     <div class="imagen primer-imagen">
-                        <a href="Index.html">
+                        <a href="../../Index.html">
                             <img src="/Portadas/LogoDeBoyaca.png">
                         </a>
                     </div>
                     <div class="imagen primer-imagen">
-                        <a href="Index.html">
+                        <a href="../../Index.html">
                             <img src="/Portadas/LogoSecretariaEducacion.png">
                         </a>
                     </div>
                 </div>
                 <div class="logo_medio">
                     <div class="imagen ">
-                        <a href="Index.html">
+                        <a href="../../Index.html">
                             <img src="/Portadas/BoyacaAvanza.png">
                         </a>
                     </div>
                     <div class="imagen">
-                        <a href="Index.html">
+                        <a href="../../Index.html">
                             <img src="/Portadas/LogoEducar.png">
                         </a>
                     </div>
@@ -199,6 +199,14 @@
 
                     <p class="titulo">Lecciones interactivas</p>
                     <div class="division">
+                        <a href="Recursos/LI/LI_MAT4_CLASES_DE_FRACCIONES/index.html" target="popup" onclick="window.open('Recursos/LI/LI_MAT4_CLASES_DE_FRACCIONES/index.html','popup','width=600,height=600%27');return false;">
+                            <img class="Materias" src="Recursos">
+                            <h4>Clases de fracciones</h4>
+                        </a>
+                        <a href="Recursos/LI/LI_MAT4_LECTURA_DECIMALES/index.html" target="popup" onclick="window.open('Recursos/LI/LI_MAT4_LECTURA_DECIMALES/index.html','popup','width=600,height=600%27');return false;">
+                            <img class="Materias" src="Recursos">
+                            <h4>Lectura de números decimales</h4>
+                        </a>
                         <a href="Recursos" target="popup" onclick="window.open('Recursos','popup','width=600,height=600%27');return false;">
                             <img class="Materias" src="Recursos">
                             <h4></h4>
@@ -227,9 +235,20 @@
                             <img class="Materias" src="Recursos">
                             <h4>Diagrama circular</h4>
                         </a>
+                        <a href="Recursos/SIM/AI_MAT4_DIAGRAMAS_BARRAS/index.html" target="popup" onclick="window.open('Recursos/SIM/AI_MAT4_DIAGRAMAS_BARRAS/index.html','popup','width=600,height=600%27');return false;">
+                            <img class="Materias" src="Recursos">
+                            <h4>Diagrama de barras</h4>
+                        </a>
                         <a href="Recursos/SIM/AI_MAT4_FRACCIONES/index.html" target="popup" onclick="window.open('Recursos/SIM/AI_MAT4_FRACCIONES/index.html','popup','width=600,height=600%27');return false;">
                             <img class="Materias" src="Recursos">
-                            <h4>Fracciones</h4>
+                            <h4>Fracciones 1</h4>
+                        </a>
+                        <a href="Recursos/SIM/AI_MAT4_FRACCIONES_PROPIAS_IMPROPIAS/index.html" target="popup" onclick="window.open('Recursos/SIM/AI_MAT4_FRACCIONES_PROPIAS_IMPROPIAS/index.html','popup','width=600,height=600%27');return false;">
+                            <img class="Materias" src="Recursos">
+                            <h4>Fracciones 2</h4>
+                        </a><a href="Recursos/SIM/AI_MAT4_LECTURA_ESCRITURA_NUMEROS/index.html" target="popup" onclick="window.open('Recursos/SIM/AI_MAT4_LECTURA_ESCRITURA_NUMEROS/index.html','popup','width=600,height=600%27');return false;">
+                            <img class="Materias" src="Recursos">
+                            <h4>Lectura y escritura de números</h4>
                         </a>
                         <a href="Recursos/SIM/DI_MAT4_U6_CONGRUENCIA/index.html" target="popup" onclick="window.open('Recursos/SIM/DI_MAT4_U6_CONGRUENCIA/index.html','popup','width=600,height=600%27');return false;">
                             <img class="Materias" src="Recursos">
@@ -257,9 +276,39 @@
         </div>        
     </div>
 
-    <footer class="footer">        
+    <footer>
+        <div class="footer_normal">
+            <p>© 2021 Todos los derechos reservados y marcas registradas son propiedad del GRUPO EDITORIAL EDUCAR</p>
+        </div>
+        <div class="footer_responsive">
+            <p>© 2021 <br/>
+                Todos los derechos reservados y marcas registradas son propiedad del <br/>
+                GRUPO EDITORIAL EDUCAR</p>
+        </div>
     </footer>
+
 <script src="../../main.js"></script>
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
     
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+        mybutton.style.display = "flex";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>    
 </body>
 </html>

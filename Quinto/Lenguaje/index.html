@@ -17,24 +17,24 @@
             <div class="logo">
                 <div class="logo_medio">
                     <div class="imagen primer-imagen">
-                        <a href="Index.html">
+                        <a href="../../Index.html">
                             <img src="/Portadas/LogoDeBoyaca.png">
                         </a>
                     </div>
                     <div class="imagen primer-imagen">
-                        <a href="Index.html">
+                        <a href="../../Index.html">
                             <img src="/Portadas/LogoSecretariaEducacion.png">
                         </a>
                     </div>
                 </div>
                 <div class="logo_medio">
                     <div class="imagen ">
-                        <a href="Index.html">
+                        <a href="../../Index.html">
                             <img src="/Portadas/BoyacaAvanza.png">
                         </a>
                     </div>
                     <div class="imagen">
-                        <a href="Index.html">
+                        <a href="../../Index.html">
                             <img src="/Portadas/LogoEducar.png">
                         </a>
                     </div>
@@ -211,9 +211,39 @@
         </div>        
     </div>
 
-    <footer class="footer">        
+    <footer>
+        <div class="footer_normal">
+            <p>© 2021 Todos los derechos reservados y marcas registradas son propiedad del GRUPO EDITORIAL EDUCAR</p>
+        </div>
+        <div class="footer_responsive">
+            <p>© 2021 <br/>
+                Todos los derechos reservados y marcas registradas son propiedad del <br/>
+                GRUPO EDITORIAL EDUCAR</p>
+        </div>
     </footer>
+
 <script src="../../main.js"></script>
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
     
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+        mybutton.style.display = "flex";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>    
 </body>
 </html>
