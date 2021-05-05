@@ -111,8 +111,8 @@
     
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    
+    align-items: stretch;   
+    cursor: pointer;
        
     padding: 10px 10px 5px;
     margin: 0 5px;
@@ -120,6 +120,7 @@
     width: 200px;
     height: 190px;
 }
+
 h4
 {      
     color:#64AF59;

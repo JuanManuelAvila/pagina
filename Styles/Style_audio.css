@@ -1,0 +1,92 @@
+
+.container {
+	width: 40%;
+	background: #ddd;
+	margin: calc(50vh - 30px) auto;
+	text-align: center;
+	padding-bottom: 10px;
+  }
+
+  .audio
+{   
+    box-shadow: 
+    inset  0 0 0 1px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0,0,0,0.1);
+
+    background-color: white;   
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;   
+    
+       
+    padding: 10px 10px 5px;
+    margin: 0 5px;
+    margin-bottom: 10px;
+
+    width: 300px;
+    height: 150px;
+}
+.audio h4{
+	height: 40px;
+}
+.audio span{
+	display: flex;
+	justify-content: center;
+}
+.audio .controles{
+	display: flex;		
+	justify-content: space-around;
+}
+  .progress {
+	width: 1px;
+    height: 5px;
+    background: #006B5A;
+    transition: width .1s linear;
+    margin: 15px 0;
+	
+    border-radius: 4px;
+  }
+button
+{	
+	cursor: pointer;
+	border: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;	
+	margin-bottom: 10px;
+}
+button img
+{		
+	width: 40px;
+	height: 40px;
+}  
+.togglePlay
+{	  
+  display: flex;
+  justify-items: center;
+  align-items: center;  
+} 
+		
+.togglePlay img:hover 
+{
+	content: url("../ImgAudio/Pagina Nueva_PLAY_OVE.png");
+}
+	
+.togglePlay .active
+{
+	content: url("../ImgAudio/Pagina Nueva_PAUSE_OFF.png");
+}
+.togglePlay .active:hover
+{
+	content: url("../ImgAudio/Pagina Nueva_PAUSE_OVE.png");
+}
+.subirVolumen img:hover
+{
+	content: url("../ImgAudio/Pagina Nueva_VOLUMEN ON_OVE.png");
+}
+.bajarVolumen img:hover
+{
+	content: url("../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-62.png");
+}
