@@ -58,7 +58,7 @@
 
     transform: rotate(-90deg);
     position: fixed;
-    bottom: 320px;
+    bottom: 150px;
     right: 30px;
     z-index: 99;
     font-size: 18px;

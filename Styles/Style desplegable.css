@@ -18,16 +18,16 @@
 {       
     color: white;
     background-color: #048162;
-    height: 300px;    
+    height: 100px;    
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 .footer_responsive
 {       
     color: white;
     background-color: #048162;
-    height: 300px;    
+    height: 100px;    
     display: none;
     align-items: center;
     justify-content: center;
@@ -177,3 +177,52 @@ h4:active{color: #009E76;}
         text-align: center;
     }
 }
+#contacto{
+    display: flex;    
+    flex-direction: column;
+    margin: 0 100px;
+    margin-top: 100px;
+    margin-bottom: 158px;
+    color: white;
+}
+#contacto p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#uso{
+    display: flex;    
+    flex-direction: column;
+    margin: 0 100px;
+    margin-top: 100px;
+    margin-bottom: 158px;
+    color: white;
+}
+#uso p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.column 
+{
+    background-color: #048162;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 20px;
+    float: left;
+    width: 50%;    
+    height: 50px; /* Should be removed. Only for demonstration */
+  }
+  .column a{
+      color: white;
+      text-decoration: underline;
+  }
+  
+  /* Clear floats after the columns */
+  .row {
+    content: "";
+    display: flex;
+    flex-direction: row;
+    clear: both;
+  }
