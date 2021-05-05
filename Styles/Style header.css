@@ -42,16 +42,23 @@
   display: block;
   border-right: 1px solid grey;
 }
-
+#myBtn img{
+  width: 20px;
+  height: 20px;
+}
 #myBtn 
 {    
+  box-shadow: 
+    inset  0 0 0 1px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0,0,0,0.1);
+
     display: flex;
     justify-content: center;
-    align-items: center;        
+    align-items: center;            
 
     transform: rotate(-90deg);
     position: fixed;
-    bottom: 120px;
+    bottom: 320px;
     right: 30px;
     z-index: 99;
     font-size: 18px;
