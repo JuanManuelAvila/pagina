@@ -65,7 +65,7 @@ nav ul ul {
 	display: none;
 	position: absolute; 
 	/* has to be the same number as the "line-height" of "nav a" */
-	top: 48px; 
+	top: 56px; 
 }
 	
 /* Display Dropdowns on Hover */
@@ -117,19 +117,19 @@ nav ul ul ul li {
 	/* Also hide the  */
 	.toggle + a,
 	.menu {
-		display: none;
-
+		display: none;		
 	}
 
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #e43440;
+		background-color: transparent;
 		padding:14px 20px;	
-		color:white;
-		font-size:22px;
+		color:black;
+		font-size:22px;		
 		text-decoration:none;
 		border:none;
+		text-align: center;
 	}
 
 	.toggle:hover {

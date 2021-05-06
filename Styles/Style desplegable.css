@@ -12,9 +12,9 @@
     display: flex;    
     flex-direction: column;    
 }
-#titulo{
+#subtitulo{
     color: white;
-    margin-left: 240px;
+    margin-left: 12.5%;
     font-size: 35px;
     margin-top: 50px;
 }
@@ -166,7 +166,7 @@ h4:active{color: #009E76;}
     content: "\02212";
 }
 @media screen and (max-width:1205px)
-{
+{    
     .division
     {    
         display: flex;
