@@ -1,0 +1,10 @@
+DIR = \TRABAJO\ProtectorInformacion\Assets\StreamingAssets\xampp
+xampp = 7.4.16
+
+server = 1.8.0
+perl = 0
+python = 0
+utils = 0
+java = 0
+other = 0
+usbstick = 1
