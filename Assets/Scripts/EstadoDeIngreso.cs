@@ -48,7 +48,8 @@ public class EstadoDeIngreso : MonoBehaviour
     private void ResetServer()
     {
         PlayerPrefs.DeleteAll();
-        Process.Start(Application.dataPath + "/StreamingAssets/xampp/xampp_stop.exe");        
+        Process.Start(Application.dataPath + "/StreamingAssets/xampp/xampp_stop.exe");
+        Process.Start(Application.dataPath + "/StreamingAssets/xampp/mysql_stop.bat");
     }
     private void OnApplicationQuit()
     {   
