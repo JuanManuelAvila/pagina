@@ -1,4 +1,4 @@
-DIR = \TRABAJO\ProtectorInformacion\Assets\StreamingAssets\xampp
+DIR = \TRABAJO\repositorio\pagina\Assets\StreamingAssets\xampp
 xampp = 7.4.16
 
 server = 1.8.0

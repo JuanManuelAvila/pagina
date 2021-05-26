@@ -84,7 +84,7 @@ sub AUTOLOAD {
 
 # tie returns the object, so the value returned to require will be true.
 tie %Config, 'Config', {
-    archlibexp => '\\TRABAJO\\ProtectorInformacion\\Assets\\StreamingAssets\\xampp\\perl\\lib',
+    archlibexp => '\\TRABAJO\\repositorio\\pagina\\Assets\\StreamingAssets\\xampp\\perl\\lib',
     archname => 'MSWin32-x64-multi-thread',
     cc => 'gcc',
     d_readlink => undef,
@@ -96,14 +96,14 @@ tie %Config, 'Config', {
     inc_version_list => '',
     intsize => '4',
     ldlibpthname => '',
-    libpth => '\\TRABAJO\\ProtectorInformacion\\Assets\\StreamingAssets\\xampp\\c\\lib \\xampp\\c\\x86_64-w64-mingw32\\lib \\xampp\\c\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0',
+    libpth => '\\TRABAJO\\repositorio\\pagina\\Assets\\StreamingAssets\\xampp\\c\\lib \\xampp\\c\\x86_64-w64-mingw32\\lib \\xampp\\c\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0',
     osname => 'MSWin32',
     osvers => '10.0.19041.388',
     path_sep => ';',
-    privlibexp => '\\TRABAJO\\ProtectorInformacion\\Assets\\StreamingAssets\\xampp\\perl\\lib',
-    scriptdir => '\\TRABAJO\\ProtectorInformacion\\Assets\\StreamingAssets\\xampp\\perl\\bin',
-    sitearchexp => '\\TRABAJO\\ProtectorInformacion\\Assets\\StreamingAssets\\xampp\\perl\\site\\lib',
-    sitelibexp => '\\TRABAJO\\ProtectorInformacion\\Assets\\StreamingAssets\\xampp\\perl\\site\\lib',
+    privlibexp => '\\TRABAJO\\repositorio\\pagina\\Assets\\StreamingAssets\\xampp\\perl\\lib',
+    scriptdir => '\\TRABAJO\\repositorio\\pagina\\Assets\\StreamingAssets\\xampp\\perl\\bin',
+    sitearchexp => '\\TRABAJO\\repositorio\\pagina\\Assets\\StreamingAssets\\xampp\\perl\\site\\lib',
+    sitelibexp => '\\TRABAJO\\repositorio\\pagina\\Assets\\StreamingAssets\\xampp\\perl\\site\\lib',
     so => 'dll',
     useithreads => 'define',
     usevendorprefix => 'define',

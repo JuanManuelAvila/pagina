@@ -1,4 +1,4 @@
-#!"\TRABAJO\ProtectorInformacion\Assets\StreamingAssets\xampp\perl\bin\perl.exe"
+#!"\TRABAJO\repositorio\pagina\Assets\StreamingAssets\xampp\perl\bin\perl.exe"
 
 print "Content-type: text/html\n\n";
 print '<html>';

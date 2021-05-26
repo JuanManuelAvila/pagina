@@ -2,38 +2,38 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EstadoDeIngreso : MonoBehaviour
 {
-    int primerEstado = 0;
-    public Text i;
+    int primerEstado = 0;    
     // Start is called before the first frame update
     void Start()
     {
         primerEstado = PlayerPrefs.GetInt("primer ingreso");
-        print(primerEstado);
 
-        transform.GetChild(0).GetComponent<Button>().interactable = primerEstado == 0 ? true : false;
-        transform.GetChild(1).GetComponent<Button>().interactable = primerEstado != 0 ? true : false;
+        transform.GetChild(0).GetComponent<Button>().interactable = primerEstado != 0;
+        transform.GetChild(1).GetComponent<Button>().interactable = primerEstado == 0;
+        transform.GetChild(2).GetComponent<Button>().interactable = primerEstado != 0;
 
-        transform.GetChild(0).GetComponent<Button>().onClick.AddListener(primerClick);
-        transform.GetChild(1).GetComponent<Button>().onClick.AddListener(click);
-
-        i.text = primerEstado.ToString();
+        transform.GetChild(0).GetComponent<Button>().onClick.AddListener(ResetServer);
+        transform.GetChild(1).GetComponent<Button>().onClick.AddListener(primerClick);
+        transform.GetChild(2).GetComponent<Button>().onClick.AddListener(click);                
     }
-    private void Update()
+    private void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            PlayerPrefs.DeleteAll();
-        }
+        transform.GetChild(0).GetComponent<Button>().interactable = primerEstado != 0;
+        transform.GetChild(1).GetComponent<Button>().interactable = primerEstado == 0;
+        transform.GetChild(2).GetComponent<Button>().interactable = primerEstado != 0;
+
+        primerEstado = PlayerPrefs.GetInt("primer ingreso");
     }
     void primerClick()
     {
-        Process.Start(Application.dataPath + "/StreamingAssets/xampp/setup_xampp.bat");
-        Application.OpenURL("http://localhost/Index.html");
-        guardar();
+       Process.Start(Application.dataPath + "/StreamingAssets/activar.bat");
+       if (primerEstado == 0)        
+            guardar();        
     }
     void click()
     {
@@ -45,4 +45,13 @@ public class EstadoDeIngreso : MonoBehaviour
         PlayerPrefs.SetInt("primer ingreso", 1);
         PlayerPrefs.Save();
     }
+    private void ResetServer()
+    {
+        PlayerPrefs.DeleteAll();
+        Process.Start(Application.dataPath + "/StreamingAssets/xampp/xampp_stop.exe");        
+    }
+    private void OnApplicationQuit()
+    {   
+       Process.Start(Application.dataPath + "/StreamingAssets/xampp/xampp_stop.exe");       
+    } 
 }
