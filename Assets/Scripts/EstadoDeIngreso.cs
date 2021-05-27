@@ -6,11 +6,13 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EstadoDeIngreso : MonoBehaviour
-{
-    int primerEstado = 0;    
+{    
+    int primerEstado = 0;
+    bool startXampp = false;
     // Start is called before the first frame update
     void Start()
     {
+        startXampp = false;
         primerEstado = PlayerPrefs.GetInt("primer ingreso");
 
         transform.GetChild(0).GetComponent<Button>().interactable = primerEstado != 0;
@@ -19,24 +21,23 @@ public class EstadoDeIngreso : MonoBehaviour
 
         transform.GetChild(0).GetComponent<Button>().onClick.AddListener(ResetServer);
         transform.GetChild(1).GetComponent<Button>().onClick.AddListener(primerClick);
-        transform.GetChild(2).GetComponent<Button>().onClick.AddListener(click);                
+        transform.GetChild(2).GetComponent<Button>().onClick.AddListener(click);
     }
     private void FixedUpdate()
     {
+        primerEstado = PlayerPrefs.GetInt("primer ingreso");
         transform.GetChild(0).GetComponent<Button>().interactable = primerEstado != 0;
         transform.GetChild(1).GetComponent<Button>().interactable = primerEstado == 0;
-        transform.GetChild(2).GetComponent<Button>().interactable = primerEstado != 0;
-
-        primerEstado = PlayerPrefs.GetInt("primer ingreso");
+        transform.GetChild(2).GetComponent<Button>().interactable = primerEstado != 0;       
     }
     void primerClick()
     {
-       Process.Start(Application.dataPath + "/StreamingAssets/activar.bat");
-       if (primerEstado == 0)        
-            guardar();        
+        Process.Start(Application.dataPath + "/StreamingAssets/activar.bat");
+        guardar();                
     }
     void click()
     {
+        startXampp = true;
         Process.Start(Application.dataPath + "/StreamingAssets/xampp/xampp_start.exe");
         Application.OpenURL("http://localhost/Index.html");
     }
@@ -48,11 +49,18 @@ public class EstadoDeIngreso : MonoBehaviour
     private void ResetServer()
     {
         PlayerPrefs.DeleteAll();
-        Process.Start(Application.dataPath + "/StreamingAssets/xampp/xampp_stop.exe");
-        Process.Start(Application.dataPath + "/StreamingAssets/xampp/mysql_stop.bat");
+        if (startXampp)
+        {
+            Process.Start(Application.dataPath + "/StreamingAssets/xampp/xampp_stop.exe");
+            startXampp = false;
+        }
     }
     private void OnApplicationQuit()
-    {   
-       Process.Start(Application.dataPath + "/StreamingAssets/xampp/xampp_stop.exe");       
-    } 
+    {
+        if (startXampp)
+        {
+            Process.Start(Application.dataPath + "/StreamingAssets/xampp/xampp_stop.exe");
+            startXampp = false;
+        }
+    }
 }

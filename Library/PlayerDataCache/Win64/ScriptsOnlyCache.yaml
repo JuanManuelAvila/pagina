@@ -45,17 +45,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9868}
     - Class: 114
-      Script: {instanceID: 10246}
+      Script: {instanceID: 10248}
     - Class: 114
-      Script: {instanceID: 10594}
+      Script: {instanceID: 10598}
     - Class: 114
-      Script: {instanceID: 11052}
+      Script: {instanceID: 11056}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 11276}
     - Class: 114
-      Script: {instanceID: 11404}
+      Script: {instanceID: 11408}
     - Class: 114
-      Script: {instanceID: 11464}
+      Script: {instanceID: 11468}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -506,4 +506,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Users/Juan Avila/Desktop/Gobernaci\xF3ndeBoyac\xE1/Educar/pagina.exe"
+  playerPath: C:/Users/Juan Avila/Desktop/Gyc/Educar/pagina.exe
