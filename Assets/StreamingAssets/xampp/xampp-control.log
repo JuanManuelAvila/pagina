@@ -1,0 +1,28 @@
+3:14:46 p. m.  [main] 	Initializing Control Panel
+3:14:46 p. m.  [main] 	Windows Version:  Enterprise  64-bit
+3:14:46 p. m.  [main] 	XAMPP Version: 7.4.16
+3:14:46 p. m.  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+3:14:46 p. m.  [main] 	You are not running with administrator rights! This will work for
+3:14:46 p. m.  [main] 	most application stuff but whenever you do something with services
+3:14:46 p. m.  [main] 	there will be a security dialogue or things will break! So think 
+3:14:46 p. m.  [main] 	about running this application with administrator rights!
+3:14:46 p. m.  [main] 	XAMPP Installation Directory: "d:\trabajo\repositorio\pagina\assets\streamingassets\xampp\"
+3:14:46 p. m.  [main] 	Checking for prerequisites
+3:14:46 p. m.  [main] 	All prerequisites found
+3:14:46 p. m.  [main] 	Initializing Modules
+3:14:46 p. m.  [main] 	The FileZilla module is disabled
+3:14:46 p. m.  [main] 	The Mercury module is disabled
+3:14:46 p. m.  [main] 	Enabling autostart for module "Apache"
+3:14:46 p. m.  [main] 	Starting Check-Timer
+3:14:46 p. m.  [main] 	Control Panel Ready
+3:14:46 p. m.  [Apache] 	Autostart active: starting...
+3:14:46 p. m.  [Apache] 	Attempting to start Apache app...
+3:14:47 p. m.  [Apache] 	Status change detected: running
+3:14:50 p. m.  [mysql] 	Attempting to stop MySQL app...
+3:14:50 p. m.  [mysql] 	Status change detected: stopped
+3:14:51 p. m.  [Apache] 	Attempting to stop Apache (PID: 13156)
+3:14:51 p. m.  [Apache] 	Attempting to stop Apache (PID: 560)
+3:14:51 p. m.  [Apache] 	Status change detected: stopped
+4:21:17 p. m.  [main] 	Deinitializing Modules
+4:21:17 p. m.  [main] 	Deinitializing Control Panel
+
