@@ -39,23 +39,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9672}
+      Script: {instanceID: 186766}
     - Class: 114
-      Script: {instanceID: 9828}
+      Script: {instanceID: 186920}
     - Class: 114
-      Script: {instanceID: 9868}
+      Script: {instanceID: 186960}
     - Class: 114
-      Script: {instanceID: 10248}
+      Script: {instanceID: 187338}
     - Class: 114
-      Script: {instanceID: 10598}
+      Script: {instanceID: 187684}
     - Class: 114
-      Script: {instanceID: 11056}
+      Script: {instanceID: 188126}
     - Class: 114
-      Script: {instanceID: 11276}
+      Script: {instanceID: 188344}
     - Class: 114
-      Script: {instanceID: 11408}
+      Script: {instanceID: 188476}
     - Class: 114
-      Script: {instanceID: 11468}
+      Script: {instanceID: 188536}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -506,4 +506,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Juan Avila/Desktop/Gyc/Educar/pagina.exe
+  playerPath: C:/Users/Juan Avila/Desktop/Gobernacion De Boyaca/Educar/pagina.exe
