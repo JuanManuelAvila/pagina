@@ -155,7 +155,7 @@
                 </div>                
             </div>
             <div class="item">
-                <p class="btn-item active">Recursos</p>
+                <p class="btn-item">Recursos</p>
                 <div class="item-content">
 
                     <p class="titulo">Actividades interactivas</p>
@@ -182,66 +182,308 @@
                     <div class="division">
                         
                         <div class="audio">
-                            <h4>Pista_01</h4>
+                            <h4>Pista_1</h4>
                             <span id="tracktime_1">00:00 / 00:14</span>
-                            <div class="progress" id="progress_1"></div>
+                            <div class="progress" id="progress"></div>
 
                             <div class="controles">
-                                <audio id="audio_1" src="Audios/Pista_18.mp3" 
-                                    ontimeupdate="document.getElementById('tracktime_1').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);">
+                                <audio id="audio_1" src="Audios/Pista_01.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_1').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
                                 </audio>
-                                
-                                <button class="togglePlay" onClick="togglePlay()"><img src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png"></button>
-                                <button class="subirVolumen" onclick="document.getElementById('audio').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
-                                <button class="bajarVolumen" onclick="document.getElementById('audio').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+
+                                <button class="togglePlay"onClick="togglePlay()">
+                                    <img id="audio_1" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_1').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_1').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
                             </div>
                         </div>
 
                         <div class="audio">
-                            <h4>Pista_02</h4>
-                            <span id="tracktime_2">00:00 / 00:00</span>
-                            <div class="progress" id="progress_2"></div>
+                            <h4>Pista_2</h4>
+                            <span id="tracktime_2">00:00 / 00:40</span>
+                            <div class="progress" id="progress"></div>
 
                             <div class="controles">
                                 <audio id="audio_2" src="Audios/Pista_02.mp3" 
-                                    ontimeupdate="document.getElementById('tracktime_2').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);">
-                                </audio>                                
+                                    ontimeupdate="document.getElementById('tracktime_2').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
 
-                                <button class="togglePlay" onClick="togglePlay()"><img src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png"></button>
-                                <button class="subirVolumen" onclick="document.getElementById('audio').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
-                                <button class="bajarVolumen" onclick="document.getElementById('audio').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_2" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_2').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_2').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
                             </div>
                         </div>
 
                         <div class="audio">
-                            <h4>Pista_03</h4>
-                            <span id="tracktime_3">00:00 / 00:00</span>
-                            <div class="progress" id="progress_3"></div>
+                            <h4>Pista_3</h4>
+                            <span id="tracktime_3">00:00 / 00:55</span>
+                            <div class="progress" id="progress"></div>
 
                             <div class="controles">
                                 <audio id="audio_3" src="Audios/Pista_03.mp3" 
-                                    ontimeupdate="document.getElementById('tracktime_3').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);">
-                                </audio>                                
+                                    ontimeupdate="document.getElementById('tracktime_3').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
 
-                                <button class="togglePlay" onClick="togglePlay()"><img src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png"></button>
-                                <button class="subirVolumen" onclick="document.getElementById('audio').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
-                                <button class="bajarVolumen" onclick="document.getElementById('audio').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                                <button class="togglePlay"onClick="togglePlay()">
+                                    <img id="audio_3" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_3').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_3').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
                             </div>
                         </div>
 
                         <div class="audio">
-                            <h4>Pista_04</h4>
-                            <span id="tracktime_4">00:00 / 00:00</span>
-                            <div class="progress" id="progress_4"></div>
+                            <h4>Pista_4</h4>
+                            <span id="tracktime_4">00:00 / 00:56</span>
+                            <div class="progress" id="progress"></div>
 
                             <div class="controles">
                                 <audio id="audio_4" src="Audios/Pista_04.mp3" 
-                                    ontimeupdate="document.getElementById('tracktime_4').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);">
-                                </audio>                                
+                                    ontimeupdate="document.getElementById('tracktime_4').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
 
-                                <button class="togglePlay" onClick="togglePlay()"><img src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png"></button>
-                                <button class="subirVolumen" onclick="document.getElementById('audio').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
-                                <button class="bajarVolumen" onclick="document.getElementById('audio').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_4" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_4').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_4').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+                        
+                        <div class="audio">
+                            <h4>Pista_5</h4>
+                            <span id="tracktime_5">00:00 / 02:42</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_5" src="Audios/Pista_05.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_5').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_5" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_5').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_5').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+
+                        <div class="audio">
+                            <h4>Pista_6</h4>
+                            <span id="tracktime_6">00:00 / 00:33</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_6" src="Audios/Pista_06.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_6').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_6" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_6').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_6').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+
+                        <div class="audio">
+                            <h4>Pista_7</h4>
+                            <span id="tracktime_7">00:00 / 01:34</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_7" src="Audios/Pista_07.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_7').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_7" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_7').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_7').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+                        
+                        <div class="audio">
+                            <h4>Pista_8</h4>
+                            <span id="tracktime_8">00:00 / 00:53</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_8" src="Audios/Pista_08.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_8').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_8" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_8').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_8').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+
+                        <div class="audio">
+                            <h4>Pista_9</h4>
+                            <span id="tracktime_9">00:00 / 01:31</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_9" src="Audios/Pista_09.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_9').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_9" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_9').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_9').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+
+                        <div class="audio">
+                            <h4>Pista_10</h4>
+                            <span id="tracktime_10">00:00 / 01:38</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_10" src="Audios/Pista_10.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_10').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_10" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_10').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_10').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+
+                        <div class="audio">
+                            <h4>Pista_11</h4>
+                            <span id="tracktime_11">00:00 / 01:10</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_11" src="Audios/Pista_11.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_11').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_11" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_11').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_11').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+
+                        <div class="audio">
+                            <h4>Pista_12</h4>
+                            <span id="tracktime_12">00:00 / 00:40</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_12" src="Audios/Pista_12.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_12').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_12" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_12').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_12').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+
+                        <div class="audio">
+                            <h4>Pista_13</h4>
+                            <span id="tracktime_13">00:00 / 00:43</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_13" src="Audios/Pista_13.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_13').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_13" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_13').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_13').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+
+                        <div class="audio">
+                            <h4>Pista_14</h4>
+                            <span id="tracktime_14">00:00 / 01:15</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_14" src="Audios/Pista_14.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_14').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_14" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_14').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_14').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+
+                        <div class="audio">
+                            <h4>Pista_15</h4>
+                            <span id="tracktime_15">00:00 / 01:36</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_15" src="Audios/Pista_15.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_15').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_15" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_15').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_15').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+
+                        <div class="audio">
+                            <h4>Pista_16</h4>
+                            <span id="tracktime_16">00:00 / 00:55</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_16" src="Audios/Pista_16.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_16').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_16" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_16').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_16').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
+                            </div>
+                        </div>
+
+                        <div class="audio">
+                            <h4>Pista_17</h4>
+                            <span id="tracktime_17">00:00 / 00:49</span>
+                            <div class="progress" id="progress"></div>
+
+                            <div class="controles">
+                                <audio id="audio_17" src="Audios/Pista_17.mp3" 
+                                    ontimeupdate="document.getElementById('tracktime_17').innerHTML = secondsToHms(this.currentTime) + ' / ' + secondsToHms(this.duration);"></audio>
+                                </audio>
+
+                                <button class="togglePlay" onClick="togglePlay()">
+                                    <img id="audio_17" src="../../ImgAudio/Pagina Nueva_PLAY_OFF.png">
+                                </button>
+                                <button class="subirVolumen" onclick="document.getElementById('audio_17').volume+=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN ON_OFF.png"></button>
+                                <button class="bajarVolumen" onclick="document.getElementById('audio_17').volume-=0.1"><img src="../../ImgAudio/Pagina Nueva_VOLUMEN DOWN_OVE-61.png"></button>
                             </div>
                         </div>
 
@@ -303,7 +545,7 @@
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
-    </script>
+</script>
     
 </body>
 </html>

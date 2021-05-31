@@ -7,7 +7,7 @@
 	padding-bottom: 10px;
   }
 
-  .audio
+.audio
 {   
     box-shadow: 
     inset  0 0 0 1px rgb(255, 255, 255),
@@ -35,19 +35,20 @@
 	display: flex;
 	justify-content: center;
 }
-.audio .controles{
+.audio .controles
+{
 	display: flex;		
 	justify-content: space-around;
 }
-  .progress {
+.progress 
+{
 	width: 1px;
-    height: 5px;
-    background: #006B5A;
-    transition: width .1s linear;
-    margin: 15px 0;
-	
-    border-radius: 4px;
-  }
+  height: 5px;
+  background: #006B5A;
+  transition: width .1s linear;
+  margin: 15px 0;	
+  border-radius: 4px;
+}
 button
 {	
 	cursor: pointer;
