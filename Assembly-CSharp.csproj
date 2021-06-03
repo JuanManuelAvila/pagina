@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CF30A0F4-2386-D618-F392-B471AEA3B2EC}</ProjectGuid>
+    <ProjectGuid>{f4a030cf-8623-18d6-f392-b471aea3b2ec}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_2_10;UNITY_2019_2;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_2_10;UNITY_2019_2;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -44,986 +44,987 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <PropertyGroup>
-    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>4.8.2.0</UnityProjectGeneratorVersion>
-    <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
-    <UnityVersion>2019.2.10f1</UnityVersion>
-  </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+     <Compile Include="Assets\Scripts\abrir.cs" />
+     <Compile Include="Assets\Scripts\BehaviourPuntero.cs" />
+     <Compile Include="Assets\Scripts\EstadoDeIngreso.cs" />
+     <Compile Include="Assets\Scripts\Licencia.cs" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\apache\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\spl\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\docs\Archive_Tar\docs\Archive_Tar.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\pdo\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\user.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\snapshot.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\Docs\Files\IncludingFileStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0037.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Test.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMPv2-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0032.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0009.xml" />
+     <None Include="Assets\StreamingAssets\xampp\perl\lib\unicore\NamedSequences.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\koi8r.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\fonts\ps\copyright.txt" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\index.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI-SOC4-U3-CAMPANA_LIBERTADORA\story_content\frame.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-EXAMPLES-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0046.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\MTA-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\examples\WEB-INF\web.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Config.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\manager\WEB-INF\web.xml" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp850.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\xmlreader\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\openssl\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0003.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\two_factor.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Test.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\sql2k\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\apd\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0026.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\conf\server.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IANA-ADDRESS-FAMILY-NUMBERS-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\bzip2\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\strawberry\licenses\gcc-toolchain\mingw-w64\glext-headers\khronos.license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\apache\CHANGES.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\readme-redist-bins.txt" />
+     <None Include="Assets\StreamingAssets\xampp\apache\INSTALL.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\tests\emptyDir\empty_dir.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\windowsXamppPhp\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0054.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\vendor\tecnickcom\tcpdf\fonts\dejavu-fonts-ttf-2.34\unicover.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0022.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-TC.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\pbxt\COPYING.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\filter\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Squiz\Docs\Arrays\ArrayDeclarationStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\BUILDING.txt" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\vendors.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0029.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IPV6-UDP-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\greek.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\RUNNING.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-USM-AES-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\ascii.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\apr\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Tercero\Sociales\Recursos\LI\LI-SOC4-U5-MEGADIVERSIDAD\meta.xml" />
+     <None Include="Assets\StreamingAssets\xampp\apache\OPENSSL-NEWS.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0033.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\windowsXamppPhp\news.txt" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\conf\context.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\AGENTX-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\HOST-RESOURCES-TYPES.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\CienciasNaturales\Recursos\LI\LI_MN2_U1_LOS_SENTIDOS\meta.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\GeoIP\COPYING.txt" />
+     <None Include="Assets\StreamingAssets\xampp\contrib\cds.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\conf\web.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\xml\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0014.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\xampp\gpl.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\Docs\NamingConventions\ValidClassNameStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\session\adodb-sess.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\latin2.xml" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp1250.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\bookmarks.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\hebrew.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IP-FORWARD-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\httpd\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\import_export.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-PASS-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\INET-ADDRESS-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0045.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0005.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-VIEW-BASED-ACM-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-COMMUNITY-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-FRAMEWORK-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IPV6-TCP-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMPv2-TC.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\wddx\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\session\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0048.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\tidy\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0043.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\LM-SENSORS-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\tests\xmlschema-mssql.xml" />
+     <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\ppm.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Tercero\Sociales\Recursos\LI\LI-SOC4-U5-MEGADIVERSIDAD\story_content\frame.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\intro.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\bcmath\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\FileZillaFTP\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0051.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\zip\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\pdflib\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\FFI\Platypus\Memory\Memory.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\giflib\COPYING.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\libzip\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\CienciasNaturales\Recursos\LI\LI_MN2_U1_LOS_SENTIDOS\story_content\fonts.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\fonts\fft\MING-README.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\PHP\DisallowShortOpenTagStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\msmtp\COPYING.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0013.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NOTIFICATION-LOG-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\vendor\tecnickcom\tcpdf\fonts\dejavu-fonts-ttf-2.34\status.txt" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\appdev\build.xml.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\db\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\xampp-portcheck\openports.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\latin5.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0024.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-TARGET-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\readme_de.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Cfg.xml" />
+     <None Include="Assets\StreamingAssets\xampp\perl\lib\unicore\SpecialCasing.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\mysqli\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0008.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\appdev\sample\docs\README.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\ssh2\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\Mercury32\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0038.xml" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\Index.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IP-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0027.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-NOTIFICATION-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\hash\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IPV6-TC.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SCTP-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\Alien\GMP\GMP.txt" />
+     <None Include="Assets\StreamingAssets\xampp\apache\manual\docs.txt" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\vendor\paragonie\constant_time_encoding\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\apache\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\apache\ABOUT_APACHE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\appdev\sample\build.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Doc.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0021.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-SCRIPT-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\share\dist\File-ShareDir\subdir\sample.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UDP-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\manager\META-INF\context.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\Docs\Files\LineLengthStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0015.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0017.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-IPFILTER-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\pcrelib\LICENCE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\TSRM\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\HCNUM-TC.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\ucd-snmp\COPYING.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-PING-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\Files\LineLengthStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\host-manager\WEB-INF\web.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IANA-RTPROTO-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0057.xml" />
+     <None Include="Assets\StreamingAssets\xampp\readme_en.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\ftp\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Man.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI_SOC4_U2_CONQUISTADORES_Y_NATIVOS\story_content\fonts.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\transformations.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\image\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp852.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\BUILDING.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\xslt\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\WEB-INF\web.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\RFC1213-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\openssl\README-SSL.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\keybcs2.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\relations.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0042.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\libxmlrpc\Copyright.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IPV6-ICMP-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Build.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI-SOC3-U1-REPRESEN_TIERRA\meta.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IPV6-FLOW-LABEL-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\conf\tomcat-users.xml" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\armscii8.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMPv2-SMI.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-SNMP-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0039.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\session\session_schema2.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0002.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\fonts\ming\MING-README.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\koi8u.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\datetime\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\passwords.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\swe7.xml" />
+     <None Include="Assets\StreamingAssets\xampp\apache\README.txt" />
+     <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\share\module\File-ShareDir\test_file.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-SYSTEM-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\ROOT\RELEASE-NOTES.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\xampp-portcheck\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\TCP-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0052.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-EXTEND-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0025.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\faq.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PHPCS\ruleset.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Pickle.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\pcre\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\host-manager\WEB-INF\manager.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\apc\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-IPFWACC-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-MONITOR-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\zlib\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\bin\catalina-tasks.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0020.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\gmp\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Segundo\Lenguaje\Recursos\AI\AI_EL2_U2_INSTRUCCIONES\meta.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IPV6-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\Mojo\resources\html_entities.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-NSLOOKUP-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\config.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI_SOC4_U2_CONQUISTADORES_Y_NATIVOS\meta.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Segundo\Sociales\Recursos\LI\LI-SOC5-U1-FORMAS_MEDIR_TIEMPO\meta.xml" />
+     <None Include="Assets\StreamingAssets\xampp\sendmail\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0018.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Segundo\Lenguaje\Recursos\AI\AI_EL2_U2_INSTRUCCIONES\story_content\fonts.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0049.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Install.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\ruleset.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\RFC-1215.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\posix\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\glossary.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\vendor\psr\cache\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\CienciasNaturales\Recursos\LI\LI_MN2_U1_LOS_SENTIDOS\story_content\frame.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\EtherLike-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\fontconfig\COPYING.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0031.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\Docs\NamingConventions\ValidFunctionNameStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\other.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\windowsXamppPhp\readme-redist-bins.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\regex\COPYRIGHT.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0001.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\js\vendor\jquery\MIT-LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\privileges.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\xmlwriter\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\libmbfl\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\latin7.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\copyright.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\xdebug\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Www.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\simplexml\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-SNMP-MIB-OLD.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0035.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-MPD-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\mod_autoindex_color\License.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\themes.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-AGENT-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\pear\readme.Auth.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\PHP\LowerCaseConstantStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Segundo\Lenguaje\Recursos\AI\AI_EL2_U2_INSTRUCCIONES\story_content\frame.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0044.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Package.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\session\session_schema.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\freetype\GPL.txt" />
+     <None Include="Assets\StreamingAssets\xampp\perl\lib\unicore\Blocks.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\adodb\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\pear\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp1251.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\Formatting\MultipleStatementAlignmentStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\libxml2\COPYING.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0006.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\charts.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Registry.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NETWORK-SERVICES-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-EVENT-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\HOST-RESOURCES-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\PHP\UpperCaseConstantStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\Docs\Functions\ValidDefaultValueStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IANAifType-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\perl\lib\Unicode\Collate\allkeys.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0004.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0041.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\Docs\Functions\FunctionCallSignatureStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\tests\xmlschema.xml" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp1256.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-EXPRESSION-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\mysql\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\developers.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Remote.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\appdev\web.xml.txt" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\architecture\startup\serverStartup.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\apache\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0036.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IANA-LANGUAGE-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI-SOC3-U1-REPRESEN_TIERRA\story_content\frame.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\apache\info.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMPv2-CONF.txt" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\credits.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\ctype\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\setup.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\share\dist\File-ShareDir\sample.txt" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\require.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\com\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0016.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Zend\ruleset.xml" />
+     <None Include="Assets\StreamingAssets\xampp\webdav\webdav.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\sql2k\redist.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\RMON-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\host-manager\META-INF\context.xml" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\macce.xml" />
+     <None Include="Assets\StreamingAssets\xampp\sendmail\ChangeLog.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\pgsql\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\t1lib\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\perl\lib\Unicode\Collate\keys.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Auth.xml" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\dec8.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Mirror.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0019.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0028.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\robots.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-USM-DH-OBJECTS-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0056.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-PROXY-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0012.xml" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\macroman.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Script.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\windowsXamppPhp\snapshot.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\Functions\OpeningFunctionBraceKernighanRitchieStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0050.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0040.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Php.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-TRACEROUTE-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\bzip2\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\TRANSPORT-ADDRESS-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0058.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\security.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Channels.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\ROOT\WEB-INF\web.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\TUNNEL-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SMUX-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\dom\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\hp8.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\aspell\COPYING.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\Zend\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\apache\OPENSSL-README.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Src.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Data.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\json\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\xsl\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0034.xml" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp866.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\browscap\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\sendmail\OpenSSL License.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0053.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-VACM-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\docs\examples\cliOutput.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\iconv\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-USER-BASED-SM-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\FFI\Platypus\Record\Meta\Meta.txt" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\settings.rst.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-SCHEDULE-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\strawberry\licenses\gcc-toolchain\mingw-w64\open-cl\khronos.license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\latin1.xml" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\proftpd\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\news.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Segundo\Sociales\Recursos\LI\LI-SOC5-U1-FORMAS_MEDIR_TIEMPO\story_content\frame.xml" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp1257.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0010.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\readme.txt" />
+     <None Include="Assets\StreamingAssets\xampp\licenses\strawberry\licenses\dmake\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\apache\NOTICE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0055.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\RUNNING.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\license.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\NamingConventions\UpperCaseConstantNameStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMPv2-TM.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IF-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\RFC1155-SMI.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI-SOC4-U3-CAMPANA_LIBERTADORA\meta.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0030.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-DEMO-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0023.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\vendor\phpmyadmin\sql-parser\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0007.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\MySource\ruleset.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IF-INVERTED-STACK-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\mbstring\versions.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0047.xml" />
+     <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\FFI\Platypus\Constant\Constant.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\errmsg-utf8.txt" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI_SOC4_U2_CONQUISTADORES_Y_NATIVOS\story_content\frame.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\Functions\OpeningFunctionBraceBsdAllmanStandard.xml" />
+     <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0011.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Squiz\ruleset.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-DLMOD-MIB.txt" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\ruleset.xml" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\RELEASE-NOTES.txt" />
+     <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\Alien\Libxml2\Libxml2.txt" />
+     <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\appdev\sample\web\WEB-INF\web.xml" />
+     <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\vendor\tecnickcom\tcpdf\fonts\dejavu-fonts-ttf-2.34\langcover.txt" />
+     <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\geostd8.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Ext.xml" />
+     <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-DISKIO-MIB.txt" />
+ <Reference Include="UnityEngine">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AndroidJNIModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DSPGraphModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FileSystemHttpModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputLegacyModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tracing">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Composition">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.FileSystem">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Web">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Transactions">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Web">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Windows">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Serialization">
+ <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="UnityEngine">
-      <HintPath>D:\Program Files\Unity\Editor\2019.2.10f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>D:\Program Files\Unity\Editor\2019.2.10f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\Scripts\abrir.cs" />
-    <Compile Include="Assets\Scripts\BehaviourPuntero.cs" />
-    <Compile Include="Assets\Scripts\EstadoDeIngreso.cs" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\apache\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\spl\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\docs\Archive_Tar\docs\Archive_Tar.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\pdo\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\user.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\snapshot.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\Docs\Files\IncludingFileStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0037.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Test.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMPv2-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0032.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0009.xml" />
-    <None Include="Assets\StreamingAssets\xampp\perl\lib\unicore\NamedSequences.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\koi8r.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\fonts\ps\copyright.txt" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\index.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI-SOC4-U3-CAMPANA_LIBERTADORA\story_content\frame.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-EXAMPLES-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0046.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\MTA-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\examples\WEB-INF\web.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Config.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\manager\WEB-INF\web.xml" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp850.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\xmlreader\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\openssl\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0003.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\two_factor.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Test.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\sql2k\license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\apd\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0026.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\conf\server.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IANA-ADDRESS-FAMILY-NUMBERS-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\bzip2\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\strawberry\licenses\gcc-toolchain\mingw-w64\glext-headers\khronos.license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\apache\CHANGES.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\readme-redist-bins.txt" />
-    <None Include="Assets\StreamingAssets\xampp\apache\INSTALL.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\tests\emptyDir\empty_dir.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\windowsXamppPhp\license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0054.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\vendor\tecnickcom\tcpdf\fonts\dejavu-fonts-ttf-2.34\unicover.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0022.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-TC.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\pbxt\COPYING.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\filter\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Squiz\Docs\Arrays\ArrayDeclarationStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\BUILDING.txt" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\vendors.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0029.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IPV6-UDP-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\greek.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\RUNNING.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-USM-AES-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\ascii.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\apr\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Tercero\Sociales\Recursos\LI\LI-SOC4-U5-MEGADIVERSIDAD\meta.xml" />
-    <None Include="Assets\StreamingAssets\xampp\apache\OPENSSL-NEWS.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0033.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\windowsXamppPhp\news.txt" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\conf\context.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\AGENTX-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\HOST-RESOURCES-TYPES.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\CienciasNaturales\Recursos\LI\LI_MN2_U1_LOS_SENTIDOS\meta.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\GeoIP\COPYING.txt" />
-    <None Include="Assets\StreamingAssets\xampp\contrib\cds.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\conf\web.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\xml\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0014.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\xampp\gpl.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\Docs\NamingConventions\ValidClassNameStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\session\adodb-sess.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\latin2.xml" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp1250.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\bookmarks.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\hebrew.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IP-FORWARD-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\httpd\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\import_export.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-PASS-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\INET-ADDRESS-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0045.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0005.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-VIEW-BASED-ACM-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-COMMUNITY-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-FRAMEWORK-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IPV6-TCP-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMPv2-TC.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\wddx\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\session\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0048.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\tidy\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0043.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\LM-SENSORS-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\tests\xmlschema-mssql.xml" />
-    <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\ppm.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Tercero\Sociales\Recursos\LI\LI-SOC4-U5-MEGADIVERSIDAD\story_content\frame.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\intro.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\bcmath\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\FileZillaFTP\license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0051.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\zip\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\pdflib\license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\FFI\Platypus\Memory\Memory.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\giflib\COPYING.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\libzip\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\CienciasNaturales\Recursos\LI\LI_MN2_U1_LOS_SENTIDOS\story_content\fonts.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\fonts\fft\MING-README.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\PHP\DisallowShortOpenTagStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\msmtp\COPYING.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0013.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NOTIFICATION-LOG-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\vendor\tecnickcom\tcpdf\fonts\dejavu-fonts-ttf-2.34\status.txt" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\appdev\build.xml.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\db\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\xampp-portcheck\openports.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\latin5.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0024.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-TARGET-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\readme_de.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Cfg.xml" />
-    <None Include="Assets\StreamingAssets\xampp\perl\lib\unicore\SpecialCasing.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\mysqli\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0008.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\appdev\sample\docs\README.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\ssh2\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\Mercury32\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0038.xml" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\Index.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IP-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0027.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-NOTIFICATION-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\hash\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IPV6-TC.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SCTP-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\Alien\GMP\GMP.txt" />
-    <None Include="Assets\StreamingAssets\xampp\apache\manual\docs.txt" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\vendor\paragonie\constant_time_encoding\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\apache\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\apache\ABOUT_APACHE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\appdev\sample\build.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Doc.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0021.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-SCRIPT-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\share\dist\File-ShareDir\subdir\sample.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UDP-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\manager\META-INF\context.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\Docs\Files\LineLengthStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0015.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0017.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-IPFILTER-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\pcrelib\LICENCE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\TSRM\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\HCNUM-TC.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\ucd-snmp\COPYING.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-PING-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\Files\LineLengthStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\host-manager\WEB-INF\web.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IANA-RTPROTO-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0057.xml" />
-    <None Include="Assets\StreamingAssets\xampp\readme_en.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\ftp\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Man.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI_SOC4_U2_CONQUISTADORES_Y_NATIVOS\story_content\fonts.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\transformations.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\image\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp852.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\BUILDING.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\xslt\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\WEB-INF\web.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\RFC1213-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\openssl\README-SSL.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\keybcs2.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\relations.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0042.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\libxmlrpc\Copyright.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IPV6-ICMP-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Build.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI-SOC3-U1-REPRESEN_TIERRA\meta.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IPV6-FLOW-LABEL-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\conf\tomcat-users.xml" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\armscii8.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMPv2-SMI.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-SNMP-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0039.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\session\session_schema2.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0002.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\fonts\ming\MING-README.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\koi8u.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\datetime\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\passwords.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\swe7.xml" />
-    <None Include="Assets\StreamingAssets\xampp\apache\README.txt" />
-    <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\share\module\File-ShareDir\test_file.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-SYSTEM-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\ROOT\RELEASE-NOTES.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\xampp-portcheck\license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\TCP-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0052.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-EXTEND-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0025.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\faq.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PHPCS\ruleset.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Pickle.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\pcre\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\host-manager\WEB-INF\manager.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\apc\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-IPFWACC-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-MONITOR-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\zlib\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\bin\catalina-tasks.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0020.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\gmp\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Segundo\Lenguaje\Recursos\AI\AI_EL2_U2_INSTRUCCIONES\meta.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IPV6-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\Mojo\resources\html_entities.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-NSLOOKUP-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\config.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI_SOC4_U2_CONQUISTADORES_Y_NATIVOS\meta.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Segundo\Sociales\Recursos\LI\LI-SOC5-U1-FORMAS_MEDIR_TIEMPO\meta.xml" />
-    <None Include="Assets\StreamingAssets\xampp\sendmail\license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0018.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Segundo\Lenguaje\Recursos\AI\AI_EL2_U2_INSTRUCCIONES\story_content\fonts.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0049.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Install.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\ruleset.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\RFC-1215.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\posix\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\glossary.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\vendor\psr\cache\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\CienciasNaturales\Recursos\LI\LI_MN2_U1_LOS_SENTIDOS\story_content\frame.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\EtherLike-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\fontconfig\COPYING.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0031.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\Docs\NamingConventions\ValidFunctionNameStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\other.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\windowsXamppPhp\readme-redist-bins.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\regex\COPYRIGHT.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0001.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\js\vendor\jquery\MIT-LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\privileges.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\xmlwriter\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\libmbfl\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\latin7.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\copyright.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\xdebug\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Www.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\simplexml\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-SNMP-MIB-OLD.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0035.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-MPD-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\mod_autoindex_color\License.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\themes.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-AGENT-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\pear\readme.Auth.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\PHP\LowerCaseConstantStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Segundo\Lenguaje\Recursos\AI\AI_EL2_U2_INSTRUCCIONES\story_content\frame.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0044.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Package.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\session\session_schema.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\freetype\GPL.txt" />
-    <None Include="Assets\StreamingAssets\xampp\perl\lib\unicore\Blocks.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\adodb\license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\pear\license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp1251.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\Formatting\MultipleStatementAlignmentStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\libxml2\COPYING.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0006.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\charts.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Registry.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NETWORK-SERVICES-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-EVENT-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\HOST-RESOURCES-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\PHP\UpperCaseConstantStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\Docs\Functions\ValidDefaultValueStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IANAifType-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\perl\lib\Unicode\Collate\allkeys.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0004.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0041.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\Docs\Functions\FunctionCallSignatureStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\tests\xmlschema.xml" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp1256.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-EXPRESSION-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\mysql\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\developers.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Remote.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\appdev\web.xml.txt" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\architecture\startup\serverStartup.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0036.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IANA-LANGUAGE-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI-SOC3-U1-REPRESEN_TIERRA\story_content\frame.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMPv2-CONF.txt" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\credits.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\ctype\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\setup.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\share\dist\File-ShareDir\sample.txt" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\require.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\com\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0016.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Zend\ruleset.xml" />
-    <None Include="Assets\StreamingAssets\xampp\webdav\webdav.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\sql2k\redist.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\RMON-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\host-manager\META-INF\context.xml" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\macce.xml" />
-    <None Include="Assets\StreamingAssets\xampp\sendmail\ChangeLog.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\pgsql\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\t1lib\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\perl\lib\Unicode\Collate\keys.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Auth.xml" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\dec8.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Mirror.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0019.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0028.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\robots.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-USM-DH-OBJECTS-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0056.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-PROXY-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0012.xml" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\macroman.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Script.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\windowsXamppPhp\snapshot.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\Functions\OpeningFunctionBraceKernighanRitchieStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0050.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0040.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Php.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-TRACEROUTE-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\bzip2\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\TRANSPORT-ADDRESS-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0058.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\security.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Command\Channels.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\ROOT\WEB-INF\web.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\TUNNEL-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SMUX-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\dom\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\hp8.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\aspell\COPYING.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\Zend\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\apache\OPENSSL-README.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Src.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Data.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\json\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\xsl\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0034.xml" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp866.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\browscap\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\sendmail\OpenSSL License.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0053.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\NET-SNMP-VACM-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\docs\examples\cliOutput.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\iconv\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMP-USER-BASED-SM-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\FFI\Platypus\Record\Meta\Meta.txt" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\doc\html\_sources\settings.rst.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\DISMAN-SCHEDULE-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\strawberry\licenses\gcc-toolchain\mingw-w64\open-cl\khronos.license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\latin1.xml" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\proftpd\license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\news.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Segundo\Sociales\Recursos\LI\LI-SOC5-U1-FORMAS_MEDIR_TIEMPO\story_content\frame.xml" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp1257.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0010.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\readme.txt" />
-    <None Include="Assets\StreamingAssets\xampp\licenses\strawberry\licenses\dmake\license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\apache\NOTICE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0055.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\RUNNING.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\license.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\NamingConventions\UpperCaseConstantNameStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\SNMPv2-TM.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IF-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\RFC1155-SMI.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI-SOC4-U3-CAMPANA_LIBERTADORA\meta.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0030.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-DEMO-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0023.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\vendor\phpmyadmin\sql-parser\LICENSE.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0007.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\MySource\ruleset.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\IF-INVERTED-STACK-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\mbstring\versions.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0047.xml" />
-    <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\FFI\Platypus\Constant\Constant.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\errmsg-utf8.txt" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Quinto\Sociales\Recursos\LI\LI_SOC4_U2_CONQUISTADORES_Y_NATIVOS\story_content\frame.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Generic\Docs\Functions\OpeningFunctionBraceBsdAllmanStandard.xml" />
-    <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0011.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\Squiz\ruleset.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-DLMOD-MIB.txt" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PHP\CodeSniffer\Standards\PEAR\ruleset.xml" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\RELEASE-NOTES.txt" />
-    <None Include="Assets\StreamingAssets\xampp\perl\vendor\lib\auto\Alien\Libxml2\Libxml2.txt" />
-    <None Include="Assets\StreamingAssets\xampp\tomcat\webapps\docs\appdev\sample\web\WEB-INF\web.xml" />
-    <None Include="Assets\StreamingAssets\xampp\phpMyAdmin\vendor\tecnickcom\tcpdf\fonts\dejavu-fonts-ttf-2.34\langcover.txt" />
-    <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\geostd8.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\pear\PEAR\Installer\Role\Ext.xml" />
-    <None Include="Assets\StreamingAssets\xampp\php\extras\mibs\UCD-DISKIO-MIB.txt" />
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/TRABAJO/repositorio/pagina/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/TRABAJO/repositorio/pagina/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/TRABAJO/repositorio/pagina/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>D:/TRABAJO/repositorio/pagina/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>D:/TRABAJO/repositorio/pagina/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/TRABAJO/repositorio/pagina/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/TRABAJO/repositorio/pagina/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/TRABAJO/repositorio/pagina/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/TRABAJO/repositorio/pagina/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>D:/TRABAJO/repositorio/pagina/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AIModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ARModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AudioModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClothModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.DSPGraphModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.FileSystemHttpModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.GameCenterModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.GridModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.HotReloadModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.InputModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ProfilerModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpriteShapeModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SubstanceModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TLSModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextCoreModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UNETModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityTestProtocolModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VFXModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VRModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VideoModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.WindModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XRModule">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="netstandard">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Win32.Primitives">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.AppContext">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Concurrent">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.NonGeneric">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Specialized">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.EventBasedAsync">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Primitives">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.TypeConverter">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Console">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data.Common">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Contracts">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Debug">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.FileVersionInfo">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Process">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.StackTrace">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.TextWriterTraceListener">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Tools">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.TraceSource">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Tracing">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Drawing.Primitives">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Dynamic.Runtime">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization.Calendars">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization.Extensions">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression.ZipFile">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.DriveInfo">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Primitives">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Watcher">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.IsolatedStorage">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.MemoryMappedFiles">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Pipes">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.UnmanagedMemoryStream">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Expressions">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Parallel">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Queryable">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.NameResolution">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.NetworkInformation">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Ping">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Primitives">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Requests">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Security">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Sockets">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebHeaderCollection">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebSockets.Client">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebSockets">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ObjectModel">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Extensions">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Primitives">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.Reader">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.ResourceManager">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.Writer">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.VisualC">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Extensions">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Handles">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Numerics">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Formatters">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Json">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Primitives">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Xml">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Claims">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Csp">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Encoding">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Primitives">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Principal">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.SecureString">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encoding">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encoding.Extensions">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.RegularExpressions">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Overlapped">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks.Parallel">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Thread">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.ThreadPool">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Timer">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.ReaderWriter">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XDocument">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XmlDocument">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XmlSerializer">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath.XDocument">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics.Vectors">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
-    </Reference>
-    <Reference Include="mscorlib">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Composition">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Core">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="System">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Drawing">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ServiceModel.Web">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Transactions">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Windows">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Serialization">
-      <HintPath>D:/Program Files/Unity/Editor/2019.2.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{40dfbff3-13e1-9a67-cf7f-017e6e021b70}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{d49f8177-2a12-61c1-24a6-adc8ef7aafc8}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{f2464365-599b-d301-3f0e-c513bc543536}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{23617025-0510-664e-d17a-5daf8f1afb7d}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{67ce0422-a82a-15f0-23b9-69a26c22acae}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
+      <Project>{4214e4c9-ead7-c790-58b8-79888a9006a9}</Project>
+      <Name>Unity.CollabProxy.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{2c03818f-b1cf-8108-63b3-be9a56ce15f3}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{03c9ede6-bbe3-0e25-4daf-c73553a29021}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{bbaa1140-97a1-3d12-2a77-b2738f23b604}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{59aaec3f-c27f-f308-7da9-dce8e1b32f33}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
