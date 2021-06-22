@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -18,6 +19,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -47,6 +49,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10248}
     - Class: 114
       Script: {instanceID: 10598}
+    - Class: 114
+      Script: {instanceID: 10782}
     - Class: 114
       Script: {instanceID: 11056}
     - Class: 114
@@ -402,7 +406,7 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 4a1d31b50e0e5ab73e0e6466de679c87
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EstadoDeIngreso

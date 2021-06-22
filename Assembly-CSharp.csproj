@@ -48,7 +48,6 @@
      <Compile Include="Assets\Scripts\abrir.cs" />
      <Compile Include="Assets\Scripts\BehaviourPuntero.cs" />
      <Compile Include="Assets\Scripts\EstadoDeIngreso.cs" />
-     <Compile Include="Assets\Scripts\Licencia.cs" />
      <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\apache\versions.xml" />
      <None Include="Assets\StreamingAssets\xampp\php\data\phpdocref\spl\versions.xml" />
      <None Include="Assets\StreamingAssets\xampp\php\docs\Archive_Tar\docs\Archive_Tar.txt" />
@@ -418,6 +417,7 @@
      <None Include="Assets\StreamingAssets\xampp\mysql\share\charsets\cp1257.xml" />
      <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0010.xml" />
      <None Include="Assets\StreamingAssets\xampp\php\pear\adodb\readme.txt" />
+     <None Include="Assets\StreamingAssets\save.txt" />
      <None Include="Assets\StreamingAssets\xampp\licenses\strawberry\licenses\dmake\license.txt" />
      <None Include="Assets\StreamingAssets\xampp\apache\NOTICE.txt" />
      <None Include="Assets\StreamingAssets\xampp\htdocs\Primero\Lenguaje\LibrosEstudiantes\Aprende_mas_6\files\assets\mobile\search\search0055.xml" />
