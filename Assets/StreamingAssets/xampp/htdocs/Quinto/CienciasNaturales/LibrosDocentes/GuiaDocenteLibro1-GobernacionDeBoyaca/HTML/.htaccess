@@ -1,0 +1,4 @@
+AddDefaultCharset utf-8
+<IfModule mod_mime.c>
+    AddType image/svg+xml .svg
+</IfModule>

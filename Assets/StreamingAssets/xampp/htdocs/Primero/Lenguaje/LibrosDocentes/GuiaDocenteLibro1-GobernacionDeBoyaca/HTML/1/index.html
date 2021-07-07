@@ -1,0 +1,32 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=../">
+    </noscript>
+    <script type="text/javascript">
+        if ((new RegExp('\/javascript:|{|}|;|%7B|%7D|%3B\/', 'i').test(window.location.href))) {
+            throw new Error('Code injection detected');
+        }
+
+        var href = window.location.href.split("#");
+        if (href.length === 2) {
+            href = "../" + "#" + href[1];
+        } else {
+            href = "../";
+        }
+        window.location.href = href;
+    </script>
+    <link rel="canonical" href="../" />
+    <title>Redirect</title>
+    
+</head>
+<body>
+    
+If you are not redirected automatically, follow the <a href='../'>link</a>.
+    
+</body>
+</html>
